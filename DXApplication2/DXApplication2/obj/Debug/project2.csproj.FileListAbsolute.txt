@@ -228,3 +228,4 @@ D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXAppli
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.통계.resources
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\project2.csproj.GenerateResource.Cache
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.exe.licenses
+D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.Form1.resources

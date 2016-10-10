@@ -53,9 +53,14 @@ namespace DXApplication2
 
         private void performanceReport_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            실적보고서 newForm = new 실적보고서();
-            newForm.Owner = this;
-            newForm.Show();
+            //if(dockPanel1 != null)
+            //    dockPanel1.col
+
+
+            ////Not use - Form 새창 띄우기
+            //실적보고서 newForm = new 실적보고서();
+            //newForm.Owner = this;
+            //newForm.Show();
         }
 
         private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -125,5 +130,27 @@ namespace DXApplication2
         {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            performanceUpdate(e.RowIndex);
+        }
+
+        
+        /// <summary>
+        /// 등록한 실적데이터 수정
+        /// 1. 금일 실적 data 목록에서 원하는 row 클릭시 실행
+        /// </summary>
+        /// <param name="rowIndex">수정할 data의 index값 </param>
+        private void performanceUpdate(int rowIndex)
+        {
+            // DB에서 해당 row값 데이터 반환 (DB연동 필요)
+
+            //해당 데이터 내용 을 사업실적수정란에 text 입력 (추후 구현)
+            MessageBox.Show(rowIndex.ToString());
+        }
+
+
     }
 }
