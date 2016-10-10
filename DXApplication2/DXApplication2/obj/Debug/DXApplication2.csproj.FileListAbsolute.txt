@@ -1,0 +1,13 @@
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\bin\Debug\DXApplication2.exe
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\bin\Debug\DXApplication2.pdb
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.csprojResolveAssemblyReference.cache
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.Properties.Resources.resources
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.csproj.GenerateResource.Cache
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.exe.licenses
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.exe
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.pdb
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.메인화면.resources
+c:\users\proyks\documents\visual studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.사업실적등록.resources
+C:\Users\proyks\Documents\Visual Studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.실적조회_통계.resources
+C:\Users\proyks\Documents\Visual Studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.Settings.DBPathSetting.resources
+C:\Users\proyks\Documents\Visual Studio 2013\Projects\DXApplication2\DXApplication2\obj\Debug\DXApplication2.Settings.Changepassword.resources
