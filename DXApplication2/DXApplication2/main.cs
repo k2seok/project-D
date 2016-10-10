@@ -21,33 +21,22 @@ namespace DXApplication2
 
 
         /// <summary>
-        /// 사업실적등록 클릭 : 클릭시 독활성화 여부에 따라, dock activate 혹은 실적등록 dock 생성
+        /// 사업실적등록 클릭 : 클릭시 Hidden상태면, visible로 변경 후 activate한다. (show) , visible이면 hidden 으로 변경 한다(hide()).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void performanceCreate_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
             if (dockPanel1.Visibility == DevExpress.XtraBars.Docking.DockVisibility.Hidden)
             {
-
-
-                ////dockManager1.BeginInit();
-                ////dockManager1.AddPanel = 
-                ////dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Top;
-                ////dockPanel1.BringToFront();
-                ////dockManager1.AddPanel(dockPanel1.Dock);
-                //dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
                 dockPanel1.Show();
-
-                ////dockManager1.EndInit();
-                ////MessageBox.Show("show");
             }
             else
             {
                 dockPanel1.Hide();
             }
 
+            // Not use - 기존 새 폼으로 띄어주고있는 내용
             //사업실적등록 newForm = new 사업실적등록();
             //newForm.Owner = this;
             //newForm.Show();
@@ -128,6 +117,11 @@ namespace DXApplication2
         }
 
         private void dockPanel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
         {
 
         }

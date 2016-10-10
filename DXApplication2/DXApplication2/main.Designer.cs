@@ -1,4 +1,6 @@
-﻿namespace DXApplication2
+﻿using System;
+
+namespace DXApplication2
 {
     partial class main
     {
@@ -28,6 +30,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            //초기화
+
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
@@ -102,31 +106,60 @@
             this.backstageViewTabItem1 = new DevExpress.XtraBars.Ribbon.BackstageViewTabItem();
             this.excelDataSource1 = new DevExpress.DataAccess.Excel.ExcelDataSource();
             this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
-            this.dockPanel1 = new DevExpress.XtraBars.Docking.DockPanel();
-            this.dockPanel1_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.dockPanel2 = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel2_Container = new DevExpress.XtraBars.Docking.ControlContainer();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.사업분류DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.세부사업DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.단위프로그램DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.건DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.명DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.금액DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelContainer1 = new DevExpress.XtraBars.Docking.DockPanel();
+            this.dockPanel1 = new DevExpress.XtraBars.Docking.DockPanel();
+            this.dockPanel1_Container = new DevExpress.XtraBars.Docking.ControlContainer();
+            this.okButton = new DevExpress.XtraEditors.SimpleButton();
+            this.금액label = new DevExpress.XtraEditors.LabelControl();
+            this.시설label = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.건label = new DevExpress.XtraEditors.LabelControl();
+            this.시설text = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.단위프로그램text = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.등록시행일text = new DevExpress.XtraEditors.DateEdit();
+            this.단위label = new DevExpress.XtraEditors.LabelControl();
+            this.시행일label = new DevExpress.XtraEditors.LabelControl();
             this.dockPanel3 = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel3_Container = new DevExpress.XtraBars.Docking.ControlContainer();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.excelDataSource2 = new DevExpress.DataAccess.Excel.ExcelDataSource();
             this.excelDataSource3 = new DevExpress.DataAccess.Excel.ExcelDataSource();
-            ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
-            this.dockPanel1.SuspendLayout();
-            this.dockPanel2.SuspendLayout();
-            this.dockPanel2_Container.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.dockPanel3.SuspendLayout();
-            this.SuspendLayout();
+            this.금액DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.명DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.건DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.단위프로그램DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.세부사업DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.사업분류DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+
+            //BeginInit : GUI 작업이 가능하도록 일시멈춤 기능과 같음
+                ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
+                ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
+                ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
+                this.dockPanel2.SuspendLayout();
+                this.dockPanel2_Container.SuspendLayout();
+                this.panelContainer1.SuspendLayout();
+                this.dockPanel1.SuspendLayout();
+                this.dockPanel1_Container.SuspendLayout();
+                ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+                ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+                ((System.ComponentModel.ISupportInitialize)(this.시설text.Properties)).BeginInit();
+                ((System.ComponentModel.ISupportInitialize)(this.단위프로그램text.Properties)).BeginInit();
+                ((System.ComponentModel.ISupportInitialize)(this.등록시행일text.Properties.CalendarTimeProperties)).BeginInit();
+                ((System.ComponentModel.ISupportInitialize)(this.등록시행일text.Properties)).BeginInit();
+                this.dockPanel3.SuspendLayout();
+                this.dockPanel3_Container.SuspendLayout();
+                ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+                this.SuspendLayout();
+
+
             // 
             // ribbonControl1
             // 
@@ -476,11 +509,9 @@
             // dockManager1
             // 
             this.dockManager1.Form = this;
-            this.dockManager1.HiddenPanels.AddRange(new DevExpress.XtraBars.Docking.DockPanel[] {
-            this.dockPanel1});
             this.dockManager1.RootPanels.AddRange(new DevExpress.XtraBars.Docking.DockPanel[] {
             this.dockPanel2,
-            this.dockPanel3});
+            this.panelContainer1});
             this.dockManager1.TopZIndexControls.AddRange(new string[] {
             "DevExpress.XtraBars.BarDockControl",
             "DevExpress.XtraBars.StandaloneBarDockControl",
@@ -492,26 +523,6 @@
             "DevExpress.XtraBars.Navigation.OfficeNavigationBar",
             "DevExpress.XtraBars.Navigation.TileNavPane",
             "DevExpress.XtraBars.TabFormControl"});
-            // 
-            // dockPanel1
-            // 
-            this.dockPanel1.Controls.Add(this.dockPanel1_Container);
-            this.dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Top;
-            this.dockPanel1.ID = new System.Guid("08949597-af0a-4046-ad8b-8ba85ce81ac6");
-            this.dockPanel1.Location = new System.Drawing.Point(0, 147);
-            this.dockPanel1.Name = "dockPanel1";
-            this.dockPanel1.OriginalSize = new System.Drawing.Size(200, 182);
-            this.dockPanel1.SavedDock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
-            this.dockPanel1.SavedIndex = 2;
-            this.dockPanel1.Size = new System.Drawing.Size(875, 235);
-            this.dockPanel1.Text = "사업실적등록";
-            // 
-            // dockPanel1_Container
-            // 
-            this.dockPanel1_Container.Location = new System.Drawing.Point(4, 23);
-            this.dockPanel1_Container.Name = "dockPanel1_Container";
-            this.dockPanel1_Container.Size = new System.Drawing.Size(867, 207);
-            this.dockPanel1_Container.TabIndex = 0;
             // 
             // dockPanel2
             // 
@@ -534,99 +545,246 @@
             this.dockPanel2_Container.Size = new System.Drawing.Size(867, 174);
             this.dockPanel2_Container.TabIndex = 0;
             // 
-            // dataGridView1
+            // panelContainer1
             // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.번호DataGridViewTextBoxColumn,
-            this.사업분류DataGridViewTextBoxColumn,
-            this.세부사업DataGridViewTextBoxColumn,
-            this.단위프로그램DataGridViewTextBoxColumn,
-            this.건DataGridViewTextBoxColumn,
-            this.명DataGridViewTextBoxColumn,
-            this.금액DataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.excelDataSource1;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(867, 174);
-            this.dataGridView1.TabIndex = 0;
+            this.panelContainer1.Controls.Add(this.dockPanel1);
+            this.panelContainer1.Controls.Add(this.dockPanel3);
+            this.panelContainer1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Top;
+            this.panelContainer1.FloatVertical = true;
+            this.panelContainer1.ID = new System.Guid("d6eeba33-a61d-470f-8d97-d02d41e778eb");
+            this.panelContainer1.Location = new System.Drawing.Point(0, 147);
+            this.panelContainer1.Name = "panelContainer1";
+            this.panelContainer1.OriginalSize = new System.Drawing.Size(200, 235);
+            this.panelContainer1.Size = new System.Drawing.Size(875, 235);
+            this.panelContainer1.Text = "panelContainer1";
             // 
-            // 번호DataGridViewTextBoxColumn
+            // dockPanel1
             // 
-            this.번호DataGridViewTextBoxColumn.DataPropertyName = "번호";
-            this.번호DataGridViewTextBoxColumn.HeaderText = "번호";
-            this.번호DataGridViewTextBoxColumn.Name = "번호DataGridViewTextBoxColumn";
-            this.번호DataGridViewTextBoxColumn.ReadOnly = true;
+            this.dockPanel1.Controls.Add(this.dockPanel1_Container);
+            this.dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
+            this.dockPanel1.FloatVertical = true;
+            this.dockPanel1.ID = new System.Guid("08949597-af0a-4046-ad8b-8ba85ce81ac6");
+            this.dockPanel1.Location = new System.Drawing.Point(0, 0);
+            this.dockPanel1.Name = "dockPanel1";
+            this.dockPanel1.OriginalSize = new System.Drawing.Size(602, 219);
+            this.dockPanel1.Size = new System.Drawing.Size(602, 235);
+            this.dockPanel1.Text = "사업실적등록";
             // 
-            // 사업분류DataGridViewTextBoxColumn
+            // dockPanel1_Container
             // 
-            this.사업분류DataGridViewTextBoxColumn.DataPropertyName = "사업분류";
-            this.사업분류DataGridViewTextBoxColumn.HeaderText = "사업분류";
-            this.사업분류DataGridViewTextBoxColumn.Name = "사업분류DataGridViewTextBoxColumn";
-            this.사업분류DataGridViewTextBoxColumn.ReadOnly = true;
+            this.dockPanel1_Container.Controls.Add(this.okButton);
+            this.dockPanel1_Container.Controls.Add(this.금액label);
+            this.dockPanel1_Container.Controls.Add(this.시설label);
+            this.dockPanel1_Container.Controls.Add(this.textEdit2);
+            this.dockPanel1_Container.Controls.Add(this.textEdit1);
+            this.dockPanel1_Container.Controls.Add(this.건label);
+            this.dockPanel1_Container.Controls.Add(this.시설text);
+            this.dockPanel1_Container.Controls.Add(this.단위프로그램text);
+            this.dockPanel1_Container.Controls.Add(this.등록시행일text);
+            this.dockPanel1_Container.Controls.Add(this.단위label);
+            this.dockPanel1_Container.Controls.Add(this.시행일label);
+            this.dockPanel1_Container.Location = new System.Drawing.Point(4, 23);
+            this.dockPanel1_Container.Name = "dockPanel1_Container";
+            this.dockPanel1_Container.Size = new System.Drawing.Size(593, 207);
+            this.dockPanel1_Container.TabIndex = 0;
             // 
-            // 세부사업DataGridViewTextBoxColumn
+            // okButton
             // 
-            this.세부사업DataGridViewTextBoxColumn.DataPropertyName = "세부사업";
-            this.세부사업DataGridViewTextBoxColumn.HeaderText = "세부사업";
-            this.세부사업DataGridViewTextBoxColumn.Name = "세부사업DataGridViewTextBoxColumn";
-            this.세부사업DataGridViewTextBoxColumn.ReadOnly = true;
+            this.okButton.Image = ((System.Drawing.Image)(resources.GetObject("okButton.Image")));
+            this.okButton.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.okButton.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            this.okButton.Location = new System.Drawing.Point(23, 166);
+            this.okButton.MinimumSize = new System.Drawing.Size(0, 38);
+            this.okButton.Name = "okButton";
+            this.okButton.Size = new System.Drawing.Size(203, 38);
+            this.okButton.TabIndex = 28;
+            this.okButton.Text = "등록";
             // 
-            // 단위프로그램DataGridViewTextBoxColumn
+            // 금액label
             // 
-            this.단위프로그램DataGridViewTextBoxColumn.DataPropertyName = "단위프로그램";
-            this.단위프로그램DataGridViewTextBoxColumn.HeaderText = "단위프로그램";
-            this.단위프로그램DataGridViewTextBoxColumn.Name = "단위프로그램DataGridViewTextBoxColumn";
-            this.단위프로그램DataGridViewTextBoxColumn.ReadOnly = true;
+            this.금액label.Location = new System.Drawing.Point(196, 76);
+            this.금액label.Name = "금액label";
+            this.금액label.Size = new System.Drawing.Size(20, 14);
+            this.금액label.TabIndex = 25;
+            this.금액label.Text = "금액";
             // 
-            // 건DataGridViewTextBoxColumn
+            // 시설label
             // 
-            this.건DataGridViewTextBoxColumn.DataPropertyName = "건";
-            this.건DataGridViewTextBoxColumn.HeaderText = "건";
-            this.건DataGridViewTextBoxColumn.Name = "건DataGridViewTextBoxColumn";
-            this.건DataGridViewTextBoxColumn.ReadOnly = true;
+            this.시설label.Location = new System.Drawing.Point(23, 14);
+            this.시설label.Name = "시설label";
+            this.시설label.Size = new System.Drawing.Size(24, 14);
+            this.시설label.TabIndex = 17;
+            this.시설label.Text = "시 설";
             // 
-            // 명DataGridViewTextBoxColumn
+            // textEdit2
             // 
-            this.명DataGridViewTextBoxColumn.DataPropertyName = "명";
-            this.명DataGridViewTextBoxColumn.HeaderText = "명";
-            this.명DataGridViewTextBoxColumn.Name = "명DataGridViewTextBoxColumn";
-            this.명DataGridViewTextBoxColumn.ReadOnly = true;
+            this.textEdit2.EditValue = "\\0";
+            this.textEdit2.Location = new System.Drawing.Point(232, 73);
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Properties.Mask.EditMask = "c0";
+            this.textEdit2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.textEdit2.Size = new System.Drawing.Size(91, 20);
+            this.textEdit2.TabIndex = 26;
             // 
-            // 금액DataGridViewTextBoxColumn
+            // textEdit1
             // 
-            this.금액DataGridViewTextBoxColumn.DataPropertyName = "금액";
-            this.금액DataGridViewTextBoxColumn.HeaderText = "금액";
-            this.금액DataGridViewTextBoxColumn.Name = "금액DataGridViewTextBoxColumn";
-            this.금액DataGridViewTextBoxColumn.ReadOnly = true;
+            this.textEdit1.EditValue = "0";
+            this.textEdit1.Location = new System.Drawing.Point(53, 73);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Properties.Mask.EditMask = "n0";
+            this.textEdit1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
+            this.textEdit1.Size = new System.Drawing.Size(42, 20);
+            this.textEdit1.TabIndex = 24;
+            // 
+            // 건label
+            // 
+            this.건label.Location = new System.Drawing.Point(37, 76);
+            this.건label.Name = "건label";
+            this.건label.Size = new System.Drawing.Size(10, 14);
+            this.건label.TabIndex = 23;
+            this.건label.Text = "건";
+            // 
+            // 시설text
+            // 
+            this.시설text.EditValue = "";
+            this.시설text.Location = new System.Drawing.Point(53, 12);
+            this.시설text.Name = "시설text";
+            this.시설text.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.시설text.Properties.DropDownRows = 6;
+            this.시설text.Properties.Items.AddRange(new object[] {
+            "휴먼기관",
+            "사람복지",
+            "복지사람",
+            "오복지",
+            "SocialWelfare",
+            "아름다운사람들",
+            "의로운재단"});
+            this.시설text.Size = new System.Drawing.Size(136, 20);
+            this.시설text.TabIndex = 21;
+            // 
+            // 단위프로그램text
+            // 
+            this.단위프로그램text.EditValue = "";
+            this.단위프로그램text.Location = new System.Drawing.Point(93, 43);
+            this.단위프로그램text.Name = "단위프로그램text";
+            this.단위프로그램text.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.단위프로그램text.Properties.DropDownRows = 13;
+            this.단위프로그램text.Properties.Items.AddRange(new object[] {
+            "좋은프로그램1",
+            "좋은프로그램2",
+            "가정방문",
+            "가족캠프",
+            "후원"});
+            this.단위프로그램text.Size = new System.Drawing.Size(230, 20);
+            this.단위프로그램text.TabIndex = 22;
+            // 
+            // 등록시행일text
+            // 
+            this.등록시행일text.EditValue = null;
+            this.등록시행일text.Location = new System.Drawing.Point(232, 13);
+            this.등록시행일text.Name = "등록시행일text";
+            this.등록시행일text.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.등록시행일text.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.등록시행일text.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
+            this.등록시행일text.Properties.DisplayFormat.FormatString = "";
+            this.등록시행일text.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.등록시행일text.Properties.EditFormat.FormatString = "";
+            this.등록시행일text.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.등록시행일text.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
+            this.등록시행일text.Size = new System.Drawing.Size(91, 20);
+            this.등록시행일text.TabIndex = 20;
+            // 
+            // 단위label
+            // 
+            this.단위label.Location = new System.Drawing.Point(23, 46);
+            this.단위label.Name = "단위label";
+            this.단위label.Size = new System.Drawing.Size(64, 14);
+            this.단위label.TabIndex = 19;
+            this.단위label.Text = "단위 프로그램";
+            // 
+            // 시행일label
+            // 
+            this.시행일label.Location = new System.Drawing.Point(196, 15);
+            this.시행일label.Name = "시행일label";
+            this.시행일label.Size = new System.Drawing.Size(30, 14);
+            this.시행일label.TabIndex = 18;
+            this.시행일label.Text = "시행일";
             // 
             // dockPanel3
             // 
             this.dockPanel3.Controls.Add(this.dockPanel3_Container);
-            this.dockPanel3.Dock = DevExpress.XtraBars.Docking.DockingStyle.Float;
-            this.dockPanel3.FloatLocation = new System.Drawing.Point(1768, 245);
+            this.dockPanel3.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
             this.dockPanel3.FloatSize = new System.Drawing.Size(144, 253);
             this.dockPanel3.ID = new System.Guid("4f562b62-870c-4a31-98fd-798e9ac31ee9");
-            this.dockPanel3.Location = new System.Drawing.Point(0, 0);
+            this.dockPanel3.Location = new System.Drawing.Point(602, 0);
             this.dockPanel3.Name = "dockPanel3";
-            this.dockPanel3.OriginalSize = new System.Drawing.Size(200, 200);
-            this.dockPanel3.SavedDock = DevExpress.XtraBars.Docking.DockingStyle.Right;
-            this.dockPanel3.SavedIndex = 1;
-            this.dockPanel3.Size = new System.Drawing.Size(144, 253);
+            this.dockPanel3.Options.ShowAutoHideButton = false;
+            this.dockPanel3.Options.ShowMaximizeButton = false;
+            this.dockPanel3.OriginalSize = new System.Drawing.Size(273, 219);
+            this.dockPanel3.Size = new System.Drawing.Size(273, 235);
             this.dockPanel3.Text = "dockPanel3";
             // 
             // dockPanel3_Container
             // 
-            this.dockPanel3_Container.Location = new System.Drawing.Point(4, 24);
+            this.dockPanel3_Container.Controls.Add(this.simpleButton4);
+            this.dockPanel3_Container.Controls.Add(this.simpleButton3);
+            this.dockPanel3_Container.Controls.Add(this.simpleButton2);
+            this.dockPanel3_Container.Controls.Add(this.simpleButton1);
+            this.dockPanel3_Container.Location = new System.Drawing.Point(4, 23);
             this.dockPanel3_Container.Name = "dockPanel3_Container";
-            this.dockPanel3_Container.Size = new System.Drawing.Size(136, 225);
+            this.dockPanel3_Container.Size = new System.Drawing.Size(265, 207);
             this.dockPanel3_Container.TabIndex = 0;
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.Image")));
+            this.simpleButton4.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.simpleButton4.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            this.simpleButton4.Location = new System.Drawing.Point(103, 71);
+            this.simpleButton4.MinimumSize = new System.Drawing.Size(0, 38);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(68, 51);
+            this.simpleButton4.TabIndex = 30;
+            this.simpleButton4.Text = "등록";
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.Image")));
+            this.simpleButton3.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.simpleButton3.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            this.simpleButton3.Location = new System.Drawing.Point(8, 71);
+            this.simpleButton3.MinimumSize = new System.Drawing.Size(0, 38);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(68, 51);
+            this.simpleButton3.TabIndex = 29;
+            this.simpleButton3.Text = "등록";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            this.simpleButton2.Location = new System.Drawing.Point(103, 8);
+            this.simpleButton2.MinimumSize = new System.Drawing.Size(0, 38);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(68, 51);
+            this.simpleButton2.TabIndex = 28;
+            this.simpleButton2.Text = "닫기";
+            this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
+            this.simpleButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.simpleButton1.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            this.simpleButton1.Location = new System.Drawing.Point(8, 8);
+            this.simpleButton1.MinimumSize = new System.Drawing.Size(0, 38);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(68, 51);
+            this.simpleButton1.TabIndex = 27;
+            this.simpleButton1.Text = "등록";
             // 
             // excelDataSource2
             // 
@@ -700,6 +858,78 @@
             excelSourceOptions3.UseFirstRowAsHeader = false;
             this.excelDataSource3.SourceOptions = excelSourceOptions3;
             // 
+            // 금액DataGridViewTextBoxColumn
+            // 
+            this.금액DataGridViewTextBoxColumn.DataPropertyName = "금액";
+            this.금액DataGridViewTextBoxColumn.HeaderText = "금액";
+            this.금액DataGridViewTextBoxColumn.Name = "금액DataGridViewTextBoxColumn";
+            this.금액DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 명DataGridViewTextBoxColumn
+            // 
+            this.명DataGridViewTextBoxColumn.DataPropertyName = "명";
+            this.명DataGridViewTextBoxColumn.HeaderText = "명";
+            this.명DataGridViewTextBoxColumn.Name = "명DataGridViewTextBoxColumn";
+            this.명DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 건DataGridViewTextBoxColumn
+            // 
+            this.건DataGridViewTextBoxColumn.DataPropertyName = "건";
+            this.건DataGridViewTextBoxColumn.HeaderText = "건";
+            this.건DataGridViewTextBoxColumn.Name = "건DataGridViewTextBoxColumn";
+            this.건DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 단위프로그램DataGridViewTextBoxColumn
+            // 
+            this.단위프로그램DataGridViewTextBoxColumn.DataPropertyName = "단위프로그램";
+            this.단위프로그램DataGridViewTextBoxColumn.HeaderText = "단위프로그램";
+            this.단위프로그램DataGridViewTextBoxColumn.Name = "단위프로그램DataGridViewTextBoxColumn";
+            this.단위프로그램DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 세부사업DataGridViewTextBoxColumn
+            // 
+            this.세부사업DataGridViewTextBoxColumn.DataPropertyName = "세부사업";
+            this.세부사업DataGridViewTextBoxColumn.HeaderText = "세부사업";
+            this.세부사업DataGridViewTextBoxColumn.Name = "세부사업DataGridViewTextBoxColumn";
+            this.세부사업DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 사업분류DataGridViewTextBoxColumn
+            // 
+            this.사업분류DataGridViewTextBoxColumn.DataPropertyName = "사업분류";
+            this.사업분류DataGridViewTextBoxColumn.HeaderText = "사업분류";
+            this.사업분류DataGridViewTextBoxColumn.Name = "사업분류DataGridViewTextBoxColumn";
+            this.사업분류DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // 번호DataGridViewTextBoxColumn
+            // 
+            this.번호DataGridViewTextBoxColumn.DataPropertyName = "번호";
+            this.번호DataGridViewTextBoxColumn.HeaderText = "번호";
+            this.번호DataGridViewTextBoxColumn.Name = "번호DataGridViewTextBoxColumn";
+            this.번호DataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.번호DataGridViewTextBoxColumn,
+            this.사업분류DataGridViewTextBoxColumn,
+            this.세부사업DataGridViewTextBoxColumn,
+            this.단위프로그램DataGridViewTextBoxColumn,
+            this.건DataGridViewTextBoxColumn,
+            this.명DataGridViewTextBoxColumn,
+            this.금액DataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.excelDataSource1;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(867, 174);
+            this.dataGridView1.TabIndex = 0;
+            // 
             // main
             // 
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.False;
@@ -707,8 +937,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(875, 584);
             this.Controls.Add(this.backstageViewControl1);
+            this.Controls.Add(this.panelContainer1);
             this.Controls.Add(this.dockPanel2);
-            this.Controls.Add(this.dockPanel1);
             this.Controls.Add(this.ribbonControl1);
             this.MinimumSize = this.ClientSize;
             this.Name = "main";
@@ -716,14 +946,27 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.메인화면_Load);
+
+            //EndInit()
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).EndInit();
-            this.dockPanel1.ResumeLayout(false);
             this.dockPanel2.ResumeLayout(false);
             this.dockPanel2_Container.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panelContainer1.ResumeLayout(false);
+            this.dockPanel1.ResumeLayout(false);
+            this.dockPanel1_Container.ResumeLayout(false);
+            this.dockPanel1_Container.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.시설text.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.단위프로그램text.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.등록시행일text.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.등록시행일text.Properties)).EndInit();
             this.dockPanel3.ResumeLayout(false);
+            this.dockPanel3_Container.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -770,6 +1013,26 @@
         private DevExpress.XtraBars.Docking.DockPanel dockPanel2;
         private DevExpress.XtraBars.Docking.ControlContainer dockPanel2_Container;
         private DevExpress.XtraBars.Docking.DockManager dockManager1;
+        private DevExpress.XtraBars.Docking.DockPanel dockPanel3;
+        private DevExpress.XtraBars.Docking.ControlContainer dockPanel3_Container;
+        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource2;
+        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource3;
+        private DevExpress.XtraBars.Docking.DockPanel panelContainer1;
+        private DevExpress.XtraEditors.LabelControl 금액label;
+        private DevExpress.XtraEditors.LabelControl 시설label;
+        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.LabelControl 건label;
+        private DevExpress.XtraEditors.ComboBoxEdit 시설text;
+        private DevExpress.XtraEditors.ComboBoxEdit 단위프로그램text;
+        private DevExpress.XtraEditors.DateEdit 등록시행일text;
+        private DevExpress.XtraEditors.LabelControl 단위label;
+        private DevExpress.XtraEditors.LabelControl 시행일label;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton okButton;
+        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 번호DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 사업분류DataGridViewTextBoxColumn;
@@ -778,10 +1041,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn 건DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 명DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 금액DataGridViewTextBoxColumn;
-        private DevExpress.XtraBars.Docking.DockPanel dockPanel3;
-        private DevExpress.XtraBars.Docking.ControlContainer dockPanel3_Container;
-        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource2;
-        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource3;
     }
 }
 
