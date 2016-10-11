@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.DBPathSettinglayoutControl2ConvertedLayout = new DevExpress.XtraLayout.LayoutControl();
+            this.serverIPAddressValue = new DevExpress.XtraEditors.TextEdit();
+            this.dbPathValue = new DevExpress.XtraEditors.TextEdit();
+            this.okButton = new DevExpress.XtraEditors.SimpleButton();
+            this.closeButton = new DevExpress.XtraEditors.SimpleButton();
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.okButton = new DevExpress.XtraEditors.SimpleButton();
-            this.closeButton = new DevExpress.XtraEditors.SimpleButton();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.DBPathSettinglayoutControl2ConvertedLayout)).BeginInit();
             this.DBPathSettinglayoutControl2ConvertedLayout.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.serverIPAddressValue.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbPathValue.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
@@ -53,8 +53,8 @@
             // 
             // DBPathSettinglayoutControl2ConvertedLayout
             // 
-            this.DBPathSettinglayoutControl2ConvertedLayout.Controls.Add(this.textEdit1);
-            this.DBPathSettinglayoutControl2ConvertedLayout.Controls.Add(this.textEdit2);
+            this.DBPathSettinglayoutControl2ConvertedLayout.Controls.Add(this.serverIPAddressValue);
+            this.DBPathSettinglayoutControl2ConvertedLayout.Controls.Add(this.dbPathValue);
             this.DBPathSettinglayoutControl2ConvertedLayout.Controls.Add(this.okButton);
             this.DBPathSettinglayoutControl2ConvertedLayout.Controls.Add(this.closeButton);
             this.DBPathSettinglayoutControl2ConvertedLayout.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -64,6 +64,43 @@
             this.DBPathSettinglayoutControl2ConvertedLayout.Root = this.layoutControlGroup2;
             this.DBPathSettinglayoutControl2ConvertedLayout.Size = new System.Drawing.Size(375, 81);
             this.DBPathSettinglayoutControl2ConvertedLayout.TabIndex = 1;
+            // 
+            // serverIPAddressValue
+            // 
+            this.serverIPAddressValue.Location = new System.Drawing.Point(75, 12);
+            this.serverIPAddressValue.Name = "serverIPAddressValue";
+            this.serverIPAddressValue.Size = new System.Drawing.Size(218, 20);
+            this.serverIPAddressValue.StyleController = this.DBPathSettinglayoutControl2ConvertedLayout;
+            this.serverIPAddressValue.TabIndex = 4;
+            // 
+            // dbPathValue
+            // 
+            this.dbPathValue.Location = new System.Drawing.Point(75, 36);
+            this.dbPathValue.Name = "dbPathValue";
+            this.dbPathValue.Size = new System.Drawing.Size(218, 20);
+            this.dbPathValue.StyleController = this.DBPathSettinglayoutControl2ConvertedLayout;
+            this.dbPathValue.TabIndex = 5;
+            // 
+            // okButton
+            // 
+            this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.okButton.Location = new System.Drawing.Point(297, 12);
+            this.okButton.Name = "okButton";
+            this.okButton.Size = new System.Drawing.Size(66, 23);
+            this.okButton.StyleController = this.DBPathSettinglayoutControl2ConvertedLayout;
+            this.okButton.TabIndex = 6;
+            this.okButton.Text = "확인";
+            // 
+            // closeButton
+            // 
+            this.closeButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.closeButton.Location = new System.Drawing.Point(297, 39);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(66, 23);
+            this.closeButton.StyleController = this.DBPathSettinglayoutControl2ConvertedLayout;
+            this.closeButton.TabIndex = 7;
+            this.closeButton.Text = "취소";
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // layoutControlGroup2
             // 
@@ -75,22 +112,6 @@
             this.layoutControlGroup2.Name = "Root";
             this.layoutControlGroup2.Size = new System.Drawing.Size(375, 81);
             this.layoutControlGroup2.TextVisible = false;
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(76, 12);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(217, 20);
-            this.textEdit1.StyleController = this.DBPathSettinglayoutControl2ConvertedLayout;
-            this.textEdit1.TabIndex = 4;
-            // 
-            // textEdit2
-            // 
-            this.textEdit2.Location = new System.Drawing.Point(76, 36);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(217, 20);
-            this.textEdit2.StyleController = this.DBPathSettinglayoutControl2ConvertedLayout;
-            this.textEdit2.TabIndex = 5;
             // 
             // layoutControlGroup3
             // 
@@ -108,7 +129,7 @@
             // 
             // layoutControlItem1
             // 
-            this.layoutControlItem1.Control = this.textEdit1;
+            this.layoutControlItem1.Control = this.serverIPAddressValue;
             this.layoutControlItem1.CustomizationFormText = "layoutControlItem1";
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
@@ -119,7 +140,7 @@
             // 
             // layoutControlItem2
             // 
-            this.layoutControlItem2.Control = this.textEdit2;
+            this.layoutControlItem2.Control = this.dbPathValue;
             this.layoutControlItem2.CustomizationFormText = "layoutControlItem2";
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 24);
             this.layoutControlItem2.Name = "layoutControlItem2";
@@ -127,27 +148,6 @@
             this.layoutControlItem2.Text = "데이터베이스";
             this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Left;
             this.layoutControlItem2.TextSize = new System.Drawing.Size(60, 14);
-            // 
-            // okButton
-            // 
-            this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.okButton.Location = new System.Drawing.Point(297, 12);
-            this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(66, 23);
-            this.okButton.StyleController = this.DBPathSettinglayoutControl2ConvertedLayout;
-            this.okButton.TabIndex = 5;
-            this.okButton.Text = "확인";
-            // 
-            // closeButton
-            // 
-            this.closeButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.closeButton.Location = new System.Drawing.Point(297, 39);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(66, 23);
-            this.closeButton.StyleController = this.DBPathSettinglayoutControl2ConvertedLayout;
-            this.closeButton.TabIndex = 6;
-            this.closeButton.Text = "취소";
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // layoutControlItem3
             // 
@@ -185,13 +185,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(375, 81);
             this.Controls.Add(this.DBPathSettinglayoutControl2ConvertedLayout);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(391, 120);
             this.Name = "DBPathSetting";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "데이터베이스 경로 설정";
             ((System.ComponentModel.ISupportInitialize)(this.DBPathSettinglayoutControl2ConvertedLayout)).EndInit();
             this.DBPathSettinglayoutControl2ConvertedLayout.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.serverIPAddressValue.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbPathValue.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
@@ -204,8 +208,8 @@
         #endregion
 
         private DevExpress.XtraLayout.LayoutControl DBPathSettinglayoutControl2ConvertedLayout;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit serverIPAddressValue;
+        private DevExpress.XtraEditors.TextEdit dbPathValue;
         private DevExpress.XtraEditors.SimpleButton okButton;
         private DevExpress.XtraEditors.SimpleButton closeButton;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup2;

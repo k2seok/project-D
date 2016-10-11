@@ -277,6 +277,8 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(215, 170);
             this.Name = "Changepassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

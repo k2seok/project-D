@@ -27,29 +27,21 @@ namespace DXApplication2
         /// <param name="e"></param>
         private void performanceCreate_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (dockPanel1.Visibility == DevExpress.XtraBars.Docking.DockVisibility.Hidden)
+            if (majorDock.Visibility == DevExpress.XtraBars.Docking.DockVisibility.Hidden)
             {
-                dockPanel1.Show();
+                majorDock.Show();
             }
             else
             {
-                dockPanel1.Hide();
+                majorDock.Hide();
             }
 
             // Not use - 기존 새 폼으로 띄어주고있는 내용
             //사업실적등록 newForm = new 사업실적등록();
             //newForm.Owner = this;
             //newForm.Show();
-            ////모달창으로 열기
-            //subForm.Owner = this;
-            //subForm.ShowDialog();
-        }
-
-        private void ribbonControl1_Click(object sender, EventArgs e)
-        {
 
         }
-
 
         /// <summary>
         /// 클릭시 실적보고서 호출
@@ -75,25 +67,36 @@ namespace DXApplication2
 
         }
 
+        /// <summary>
+        /// 암호변경 메뉴 클릭시, modal로 새창 열기
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void changepassword_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            ////모달창으로 열기
             Settings.Changepassword newForm = new Settings.Changepassword();
             newForm.Owner = this;
-            newForm.Show();
-
-
+            newForm.ShowDialog();
         }
 
+
+        /// <summary>
+        /// 시스템 DB경로설정 메뉴 클릭시, modal로 새창 열기
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void 시스템_DB경로설정_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            ////모달창으로 열기
             Settings.DBPathSetting newForm = new Settings.DBPathSetting();
-            newForm.Owner = this;
-            newForm.Show();
+            //newForm.Owner = this;
+            newForm.ShowDialog();
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
             performanceUpdate(e.RowIndex);
         }
 
@@ -111,9 +114,8 @@ namespace DXApplication2
             MessageBox.Show(rowIndex.ToString());
         }
 
-
         /// <summary>
-        /// 클릭시 major Dock 과 minor Dock Swap
+        /// 리모컨 버튼 0번 클릭 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -123,9 +125,5 @@ namespace DXApplication2
             performanceReport_ItemClick(sender, null);
         }
 
-        private void groupControl1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
