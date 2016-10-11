@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DXApplication2
+﻿namespace DXApplication2
 {
     partial class main
     {
@@ -53,41 +51,37 @@ namespace DXApplication2
             DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions1 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings1);
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo8 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo9 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings2 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
-            DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions2 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings2);
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo10 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo11 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo12 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo13 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo14 = new DevExpress.DataAccess.Excel.FieldInfo();
+            DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings2 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
+            DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions2 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings2);
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo15 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo16 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings3 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
-            DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions3 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings3);
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo17 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo18 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo19 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo20 = new DevExpress.DataAccess.Excel.FieldInfo();
             DevExpress.DataAccess.Excel.FieldInfo fieldInfo21 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo22 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.FieldInfo fieldInfo23 = new DevExpress.DataAccess.Excel.FieldInfo();
-            DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings4 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
-            DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions4 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings4);
+            DevExpress.DataAccess.Excel.ExcelWorksheetSettings excelWorksheetSettings3 = new DevExpress.DataAccess.Excel.ExcelWorksheetSettings();
+            DevExpress.DataAccess.Excel.ExcelSourceOptions excelSourceOptions3 = new DevExpress.DataAccess.Excel.ExcelSourceOptions(excelWorksheetSettings3);
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.backstageViewControl1 = new DevExpress.XtraBars.Ribbon.BackstageViewControl();
             this.backstageViewButtonItem1 = new DevExpress.XtraBars.Ribbon.BackstageViewButtonItem();
-            this.performanceCreate = new DevExpress.XtraBars.BarButtonItem();
-            this.performanceReadMenu = new DevExpress.XtraBars.BarSubItem();
+            this.사업실적등록 = new DevExpress.XtraBars.BarButtonItem();
+            this.실적조회 = new DevExpress.XtraBars.BarSubItem();
             this.performanceReport = new DevExpress.XtraBars.BarButtonItem();
-            this.performanceDetail = new DevExpress.XtraBars.BarButtonItem();
-            this.performanceStatistics = new DevExpress.XtraBars.BarButtonItem();
-            this.codeManage = new DevExpress.XtraBars.BarButtonItem();
-            this.information = new DevExpress.XtraBars.BarButtonItem();
-            this.systemMenu = new DevExpress.XtraBars.BarSubItem();
+            this.실적조회_세부내용 = new DevExpress.XtraBars.BarButtonItem();
+            this.실적조회_통계 = new DevExpress.XtraBars.BarButtonItem();
+            this.코드관리 = new DevExpress.XtraBars.BarButtonItem();
+            this.도움말 = new DevExpress.XtraBars.BarButtonItem();
+            this.시스템 = new DevExpress.XtraBars.BarSubItem();
             this.changePassword = new DevExpress.XtraBars.BarButtonItem();
-            this.userCreate = new DevExpress.XtraBars.BarButtonItem();
-            this.printSetting = new DevExpress.XtraBars.BarButtonItem();
-            this.dbPathSetting = new DevExpress.XtraBars.BarButtonItem();
+            this.시스템_부서사용자등록 = new DevExpress.XtraBars.BarButtonItem();
+            this.시스템_프린터설정 = new DevExpress.XtraBars.BarButtonItem();
+            this.시스템_DB경로설정 = new DevExpress.XtraBars.BarButtonItem();
             this.setting = new DevExpress.XtraBars.BarButtonItem();
             this.barLinkContainerItem1 = new DevExpress.XtraBars.BarLinkContainerItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
@@ -96,10 +90,10 @@ namespace DXApplication2
             this.workspaceManager1 = new DevExpress.Utils.WorkspaceManager();
             this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
             this.barDockingMenuItem2 = new DevExpress.XtraBars.BarDockingMenuItem();
-            this.toolsMenu = new DevExpress.XtraBars.BarSubItem();
-            this.calendar = new DevExpress.XtraBars.BarButtonItem();
-            this.postCode = new DevExpress.XtraBars.BarButtonItem();
-            this.homePage = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.도구모음 = new DevExpress.XtraBars.BarSubItem();
+            this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -108,51 +102,11 @@ namespace DXApplication2
             this.backstageViewTabItem1 = new DevExpress.XtraBars.Ribbon.BackstageViewTabItem();
             this.excelDataSource1 = new DevExpress.DataAccess.Excel.ExcelDataSource();
             this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
-            this.panelContainer1 = new DevExpress.XtraBars.Docking.DockPanel();
-            this.majorDock = new DevExpress.XtraBars.Docking.DockPanel();
+            this.dockPanel1 = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel1_Container = new DevExpress.XtraBars.Docking.ControlContainer();
-            this.separateMyeongLabel = new DevExpress.XtraEditors.LabelControl();
-            this.separateMyeongGroup = new DevExpress.XtraEditors.GroupControl();
-            this.separateMyeongGroupLabel5 = new DevExpress.XtraEditors.LabelControl();
-            this.separateMyeongGroupLabel4 = new DevExpress.XtraEditors.LabelControl();
-            this.separateMyeongGroupLabel3 = new DevExpress.XtraEditors.LabelControl();
-            this.separateMyeongGroupLabel2 = new DevExpress.XtraEditors.LabelControl();
-            this.separateMyeongGroupLabel1 = new DevExpress.XtraEditors.LabelControl();
-            this.separateMyeongGroupLabel6 = new DevExpress.XtraEditors.LabelControl();
-            this.separateMyeongGroupValue5 = new DevExpress.XtraEditors.TextEdit();
-            this.separateMyeongGroupValue4 = new DevExpress.XtraEditors.TextEdit();
-            this.separateMyeongGroupValue3 = new DevExpress.XtraEditors.TextEdit();
-            this.separateMyeongGroupValue2 = new DevExpress.XtraEditors.TextEdit();
-            this.separateMyeongGroupValue1 = new DevExpress.XtraEditors.TextEdit();
-            this.myeongValue = new DevExpress.XtraEditors.TextEdit();
-            this.saveCreate = new DevExpress.XtraEditors.CheckEdit();
-            this.createRecentLabel = new DevExpress.XtraEditors.LabelControl();
-            this.cancelButton = new DevExpress.XtraEditors.SimpleButton();
-            this.myeongLabel = new DevExpress.XtraEditors.LabelControl();
-            this.remarksLabel = new DevExpress.XtraEditors.LabelControl();
-            this.okButton = new DevExpress.XtraEditors.SimpleButton();
-            this.moneyLabel = new DevExpress.XtraEditors.LabelControl();
-            this.facilityLabel = new DevExpress.XtraEditors.LabelControl();
-            this.moneyValue = new DevExpress.XtraEditors.TextEdit();
-            this.geonValue = new DevExpress.XtraEditors.TextEdit();
-            this.geonLabel = new DevExpress.XtraEditors.LabelControl();
-            this.facilityValue = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.programValue = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.opDateValue = new DevExpress.XtraEditors.DateEdit();
-            this.programLabel = new DevExpress.XtraEditors.LabelControl();
-            this.opDatelabel = new DevExpress.XtraEditors.LabelControl();
-            this.remarksValue = new DevExpress.XtraEditors.MemoEdit();
-            this.createRecentComboBox = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.navigationDock = new DevExpress.XtraBars.Docking.DockPanel();
-            this.dockPanel3_Container = new DevExpress.XtraBars.Docking.ControlContainer();
-            this.remoconSettingButton = new DevExpress.XtraEditors.SimpleButton();
-            this.remoteButton0 = new DevExpress.XtraEditors.SimpleButton();
-            this.remoteButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.remoteButton8 = new DevExpress.XtraEditors.SimpleButton();
-            this.remoteButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.minorDock = new DevExpress.XtraBars.Docking.DockPanel();
+            this.dockPanel2 = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel2_Container = new DevExpress.XtraBars.Docking.ControlContainer();
-            this.performanceReadGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.번호DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.사업분류DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.세부사업DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -160,40 +114,18 @@ namespace DXApplication2
             this.건DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.명DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.금액DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.excelDataSource4 = new DevExpress.DataAccess.Excel.ExcelDataSource();
+            this.dockPanel3 = new DevExpress.XtraBars.Docking.DockPanel();
+            this.dockPanel3_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.excelDataSource2 = new DevExpress.DataAccess.Excel.ExcelDataSource();
             this.excelDataSource3 = new DevExpress.DataAccess.Excel.ExcelDataSource();
-            this.remoteButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.remoteButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.remoteButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
-            this.panelContainer1.SuspendLayout();
-            this.majorDock.SuspendLayout();
-            this.dockPanel1_Container.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroup)).BeginInit();
-            this.separateMyeongGroup.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myeongValue.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.saveCreate.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.moneyValue.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.geonValue.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.facilityValue.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.programValue.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.opDateValue.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.opDateValue.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.remarksValue.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.createRecentComboBox.Properties)).BeginInit();
-            this.navigationDock.SuspendLayout();
-            this.dockPanel3_Container.SuspendLayout();
-            this.minorDock.SuspendLayout();
+            this.dockPanel1.SuspendLayout();
+            this.dockPanel2.SuspendLayout();
             this.dockPanel2_Container.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.performanceReadGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dockPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -202,37 +134,36 @@ namespace DXApplication2
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
-            this.performanceCreate,
-            this.performanceReadMenu,
-            this.codeManage,
-            this.information,
+            this.사업실적등록,
+            this.실적조회,
+            this.코드관리,
+            this.도움말,
             this.performanceReport,
-            this.performanceDetail,
-            this.performanceStatistics,
-            this.systemMenu,
+            this.실적조회_세부내용,
+            this.실적조회_통계,
+            this.시스템,
             this.barLinkContainerItem1,
             this.barButtonItem7,
             this.changePassword,
-            this.userCreate,
-            this.printSetting,
-            this.dbPathSetting,
+            this.시스템_부서사용자등록,
+            this.시스템_프린터설정,
+            this.시스템_DB경로설정,
             this.barDockingMenuItem1,
             this.barWorkspaceMenuItem1,
             this.barSubItem3,
             this.barDockingMenuItem2,
             this.setting,
-            this.toolsMenu,
-            this.calendar,
-            this.postCode});
+            this.도구모음,
+            this.barButtonItem13,
+            this.barButtonItem14});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.MaxItemId = 21;
-            this.ribbonControl1.MinimumSize = new System.Drawing.Size(875, 147);
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.homePage,
+            this.ribbonPage1,
             this.ribbonPage2});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2010;
-            this.ribbonControl1.Size = new System.Drawing.Size(1186, 147);
+            this.ribbonControl1.Size = new System.Drawing.Size(875, 147);
             // 
             // backstageViewControl1
             // 
@@ -245,6 +176,7 @@ namespace DXApplication2
             this.backstageViewControl1.Style = DevExpress.XtraBars.Ribbon.BackstageViewStyle.Office2013;
             this.backstageViewControl1.TabIndex = 3;
             this.backstageViewControl1.Text = "backstageViewControl1";
+            this.backstageViewControl1.Click += new System.EventHandler(this.backstageViewControl1_Click);
             // 
             // backstageViewButtonItem1
             // 
@@ -254,32 +186,32 @@ namespace DXApplication2
             this.backstageViewButtonItem1.Glyph = ((System.Drawing.Image)(resources.GetObject("backstageViewButtonItem1.Glyph")));
             this.backstageViewButtonItem1.Name = "backstageViewButtonItem1";
             // 
-            // performanceCreate
+            // 사업실적등록
             // 
-            this.performanceCreate.Caption = "사업실적등록";
-            this.performanceCreate.Glyph = ((System.Drawing.Image)(resources.GetObject("performanceCreate.Glyph")));
-            this.performanceCreate.Id = 1;
-            this.performanceCreate.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("performanceCreate.LargeGlyph")));
-            this.performanceCreate.Name = "performanceCreate";
-            this.performanceCreate.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.사업실적등록.Caption = "사업실적등록";
+            this.사업실적등록.Glyph = ((System.Drawing.Image)(resources.GetObject("사업실적등록.Glyph")));
+            this.사업실적등록.Id = 1;
+            this.사업실적등록.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("사업실적등록.LargeGlyph")));
+            this.사업실적등록.Name = "사업실적등록";
+            this.사업실적등록.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             toolTipItem1.Text = "시행사업에 대해 등록 및 관리";
             superToolTip1.Items.Add(toolTipItem1);
-            this.performanceCreate.SuperTip = superToolTip1;
-            this.performanceCreate.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.performanceCreate_ItemClick);
+            this.사업실적등록.SuperTip = superToolTip1;
+            this.사업실적등록.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.performanceCreate_ItemClick);
             // 
-            // performanceReadMenu
+            // 실적조회
             // 
-            this.performanceReadMenu.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.False;
-            this.performanceReadMenu.Caption = "실적조회";
-            this.performanceReadMenu.Glyph = ((System.Drawing.Image)(resources.GetObject("performanceReadMenu.Glyph")));
-            this.performanceReadMenu.Id = 2;
-            this.performanceReadMenu.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("performanceReadMenu.LargeGlyph")));
-            this.performanceReadMenu.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            this.실적조회.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.False;
+            this.실적조회.Caption = "실적조회";
+            this.실적조회.Glyph = ((System.Drawing.Image)(resources.GetObject("실적조회.Glyph")));
+            this.실적조회.Id = 2;
+            this.실적조회.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("실적조회.LargeGlyph")));
+            this.실적조회.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.performanceReport),
-            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.performanceDetail, DevExpress.XtraBars.BarItemPaintStyle.Standard),
-            new DevExpress.XtraBars.LinkPersistInfo(this.performanceStatistics)});
-            this.performanceReadMenu.Name = "performanceReadMenu";
-            this.performanceReadMenu.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.실적조회_세부내용, DevExpress.XtraBars.BarItemPaintStyle.Standard),
+            new DevExpress.XtraBars.LinkPersistInfo(this.실적조회_통계)});
+            this.실적조회.Name = "실적조회";
+            this.실적조회.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // performanceReport
             // 
@@ -288,48 +220,49 @@ namespace DXApplication2
             this.performanceReport.Name = "performanceReport";
             this.performanceReport.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.performanceReport_ItemClick);
             // 
-            // performanceDetail
+            // 실적조회_세부내용
             // 
-            this.performanceDetail.Caption = "사업실적 세부내용";
-            this.performanceDetail.Id = 12;
-            this.performanceDetail.Name = "performanceDetail";
+            this.실적조회_세부내용.Caption = "사업실적 세부내용";
+            this.실적조회_세부내용.Id = 12;
+            this.실적조회_세부내용.Name = "실적조회_세부내용";
+            this.실적조회_세부내용.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
             // 
-            // performanceStatistics
+            // 실적조회_통계
             // 
-            this.performanceStatistics.Caption = "통계";
-            this.performanceStatistics.Id = 13;
-            this.performanceStatistics.Name = "performanceStatistics";
+            this.실적조회_통계.Caption = "통계";
+            this.실적조회_통계.Id = 13;
+            this.실적조회_통계.Name = "실적조회_통계";
             // 
-            // codeManage
+            // 코드관리
             // 
-            this.codeManage.Caption = "코드관리";
-            this.codeManage.Glyph = ((System.Drawing.Image)(resources.GetObject("codeManage.Glyph")));
-            this.codeManage.Id = 7;
-            this.codeManage.Name = "codeManage";
-            this.codeManage.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.코드관리.Caption = "코드관리";
+            this.코드관리.Glyph = ((System.Drawing.Image)(resources.GetObject("코드관리.Glyph")));
+            this.코드관리.Id = 7;
+            this.코드관리.Name = "코드관리";
+            this.코드관리.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
-            // information
+            // 도움말
             // 
-            this.information.Caption = "도움말";
-            this.information.Glyph = ((System.Drawing.Image)(resources.GetObject("information.Glyph")));
-            this.information.Id = 10;
-            this.information.Name = "information";
-            this.information.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.도움말.Caption = "도움말";
+            this.도움말.Glyph = ((System.Drawing.Image)(resources.GetObject("도움말.Glyph")));
+            this.도움말.Id = 10;
+            this.도움말.Name = "도움말";
+            this.도움말.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
-            // systemMenu
+            // 시스템
             // 
-            this.systemMenu.Caption = "시스템";
-            this.systemMenu.Glyph = ((System.Drawing.Image)(resources.GetObject("systemMenu.Glyph")));
-            this.systemMenu.Id = 14;
-            this.systemMenu.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("systemMenu.LargeGlyph")));
-            this.systemMenu.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            this.시스템.Caption = "시스템";
+            this.시스템.Glyph = ((System.Drawing.Image)(resources.GetObject("시스템.Glyph")));
+            this.시스템.Id = 14;
+            this.시스템.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("시스템.LargeGlyph")));
+            this.시스템.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.Caption, this.changePassword, "암호변경"),
-            new DevExpress.XtraBars.LinkPersistInfo(this.userCreate),
-            new DevExpress.XtraBars.LinkPersistInfo(this.printSetting),
-            new DevExpress.XtraBars.LinkPersistInfo(this.dbPathSetting),
+            new DevExpress.XtraBars.LinkPersistInfo(this.시스템_부서사용자등록),
+            new DevExpress.XtraBars.LinkPersistInfo(this.시스템_프린터설정),
+            new DevExpress.XtraBars.LinkPersistInfo(this.시스템_DB경로설정),
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.setting, "", true, true, true, 0, null, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph)});
-            this.systemMenu.Name = "systemMenu";
-            this.systemMenu.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.시스템.Name = "시스템";
+            this.시스템.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // changePassword
             // 
@@ -340,26 +273,26 @@ namespace DXApplication2
             this.changePassword.Name = "changePassword";
             this.changePassword.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.changepassword_ItemClick);
             // 
-            // userCreate
+            // 시스템_부서사용자등록
             // 
-            this.userCreate.Caption = "부서사용자등록";
-            this.userCreate.Id = 10;
-            this.userCreate.Name = "userCreate";
+            this.시스템_부서사용자등록.Caption = "부서사용자등록";
+            this.시스템_부서사용자등록.Id = 10;
+            this.시스템_부서사용자등록.Name = "시스템_부서사용자등록";
             // 
-            // printSetting
+            // 시스템_프린터설정
             // 
-            this.printSetting.Caption = "프린터 설정";
-            this.printSetting.Id = 11;
-            this.printSetting.Name = "printSetting";
+            this.시스템_프린터설정.Caption = "프린터 설정";
+            this.시스템_프린터설정.Id = 11;
+            this.시스템_프린터설정.Name = "시스템_프린터설정";
             // 
-            // dbPathSetting
+            // 시스템_DB경로설정
             // 
-            this.dbPathSetting.Caption = "DB경로 설정";
-            this.dbPathSetting.Glyph = ((System.Drawing.Image)(resources.GetObject("dbPathSetting.Glyph")));
-            this.dbPathSetting.Id = 12;
-            this.dbPathSetting.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("dbPathSetting.LargeGlyph")));
-            this.dbPathSetting.Name = "dbPathSetting";
-            this.dbPathSetting.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.시스템_DB경로설정_ItemClick);
+            this.시스템_DB경로설정.Caption = "DB경로 설정";
+            this.시스템_DB경로설정.Glyph = ((System.Drawing.Image)(resources.GetObject("시스템_DB경로설정.Glyph")));
+            this.시스템_DB경로설정.Id = 12;
+            this.시스템_DB경로설정.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("시스템_DB경로설정.LargeGlyph")));
+            this.시스템_DB경로설정.Name = "시스템_DB경로설정";
+            this.시스템_DB경로설정.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.시스템_DB경로설정_ItemClick);
             // 
             // setting
             // 
@@ -370,6 +303,7 @@ namespace DXApplication2
             this.setting.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("setting.LargeGlyph")));
             this.setting.LargeGlyphDisabled = ((System.Drawing.Image)(resources.GetObject("setting.LargeGlyphDisabled")));
             this.setting.Name = "setting";
+            this.setting.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.setting_ItemClick);
             // 
             // barLinkContainerItem1
             // 
@@ -397,6 +331,7 @@ namespace DXApplication2
             this.barWorkspaceMenuItem1.Id = 14;
             this.barWorkspaceMenuItem1.Name = "barWorkspaceMenuItem1";
             this.barWorkspaceMenuItem1.WorkspaceManager = this.workspaceManager1;
+            this.barWorkspaceMenuItem1.ListItemClick += new DevExpress.XtraBars.ListItemClickEventHandler(this.barWorkspaceMenuItem1_ListItemClick);
             // 
             // workspaceManager1
             // 
@@ -415,46 +350,46 @@ namespace DXApplication2
             this.barDockingMenuItem2.Id = 16;
             this.barDockingMenuItem2.Name = "barDockingMenuItem2";
             // 
-            // toolsMenu
+            // 도구모음
             // 
-            this.toolsMenu.Caption = "도구모음";
-            this.toolsMenu.Glyph = ((System.Drawing.Image)(resources.GetObject("toolsMenu.Glyph")));
-            this.toolsMenu.Id = 18;
-            this.toolsMenu.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.Caption, this.calendar, "연간달력"),
-            new DevExpress.XtraBars.LinkPersistInfo(this.postCode)});
-            this.toolsMenu.Name = "toolsMenu";
-            this.toolsMenu.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.도구모음.Caption = "도구모음";
+            this.도구모음.Glyph = ((System.Drawing.Image)(resources.GetObject("도구모음.Glyph")));
+            this.도구모음.Id = 18;
+            this.도구모음.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.Caption, this.barButtonItem13, "연간달력"),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem14)});
+            this.도구모음.Name = "도구모음";
+            this.도구모음.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             toolTipTitleItem1.Text = "유용한 도구 모음";
             toolTipItem2.LeftIndent = 6;
             toolTipItem2.Text = "ㄴ 달력\r\nㄴ 전국우편번호";
             superToolTip2.Items.Add(toolTipTitleItem1);
             superToolTip2.Items.Add(toolTipItem2);
-            this.toolsMenu.SuperTip = superToolTip2;
+            this.도구모음.SuperTip = superToolTip2;
             // 
-            // calendar
+            // barButtonItem13
             // 
-            this.calendar.Caption = "연간달력";
-            this.calendar.Id = 19;
-            this.calendar.Name = "calendar";
+            this.barButtonItem13.Caption = "연간달력";
+            this.barButtonItem13.Id = 19;
+            this.barButtonItem13.Name = "barButtonItem13";
             // 
-            // postCode
+            // barButtonItem14
             // 
-            this.postCode.Caption = "전국 우편번호";
-            this.postCode.Id = 20;
-            this.postCode.Name = "postCode";
+            this.barButtonItem14.Caption = "전국 우편번호";
+            this.barButtonItem14.Id = 20;
+            this.barButtonItem14.Name = "barButtonItem14";
             // 
-            // homePage
+            // ribbonPage1
             // 
-            this.homePage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1});
-            this.homePage.Name = "homePage";
-            this.homePage.Text = "홈";
+            this.ribbonPage1.Name = "ribbonPage1";
+            this.ribbonPage1.Text = "홈";
             // 
             // ribbonPageGroup1
             // 
-            this.ribbonPageGroup1.ItemLinks.Add(this.performanceCreate);
-            this.ribbonPageGroup1.ItemLinks.Add(this.performanceReadMenu);
+            this.ribbonPageGroup1.ItemLinks.Add(this.사업실적등록);
+            this.ribbonPageGroup1.ItemLinks.Add(this.실적조회);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             this.ribbonPageGroup1.ShowCaptionButton = false;
             toolTipTitleItem2.Text = "리본컨트롤 타이틀";
@@ -478,16 +413,16 @@ namespace DXApplication2
             // 
             // ribbonPageGroup2
             // 
-            this.ribbonPageGroup2.ItemLinks.Add(this.codeManage);
-            this.ribbonPageGroup2.ItemLinks.Add(this.systemMenu);
+            this.ribbonPageGroup2.ItemLinks.Add(this.코드관리);
+            this.ribbonPageGroup2.ItemLinks.Add(this.시스템);
+            this.ribbonPageGroup2.ItemLinks.Add(this.도움말);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.ShowCaptionButton = false;
             this.ribbonPageGroup2.Text = "시스템 관리";
             // 
             // ribbonPageGroup3
             // 
-            this.ribbonPageGroup3.ItemLinks.Add(this.information);
-            this.ribbonPageGroup3.ItemLinks.Add(this.toolsMenu);
+            this.ribbonPageGroup3.ItemLinks.Add(this.도구모음);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.ShowCaptionButton = false;
             this.ribbonPageGroup3.Text = "부가기능";
@@ -497,6 +432,7 @@ namespace DXApplication2
             this.barListItem1.Caption = "barListItem1";
             this.barListItem1.Id = 18;
             this.barListItem1.Name = "barListItem1";
+            this.barListItem1.ListItemClick += new DevExpress.XtraBars.ListItemClickEventHandler(this.barListItem1_ListItemClick);
             // 
             // backstageViewTabItem1
             // 
@@ -540,9 +476,11 @@ namespace DXApplication2
             // dockManager1
             // 
             this.dockManager1.Form = this;
+            this.dockManager1.HiddenPanels.AddRange(new DevExpress.XtraBars.Docking.DockPanel[] {
+            this.dockPanel1});
             this.dockManager1.RootPanels.AddRange(new DevExpress.XtraBars.Docking.DockPanel[] {
-            this.panelContainer1,
-            this.minorDock});
+            this.dockPanel2,
+            this.dockPanel3});
             this.dockManager1.TopZIndexControls.AddRange(new string[] {
             "DevExpress.XtraBars.BarDockControl",
             "DevExpress.XtraBars.StandaloneBarDockControl",
@@ -555,503 +493,54 @@ namespace DXApplication2
             "DevExpress.XtraBars.Navigation.TileNavPane",
             "DevExpress.XtraBars.TabFormControl"});
             // 
-            // panelContainer1
+            // dockPanel1
             // 
-            this.panelContainer1.Controls.Add(this.majorDock);
-            this.panelContainer1.Controls.Add(this.navigationDock);
-            this.panelContainer1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Top;
-            this.panelContainer1.FloatSize = new System.Drawing.Size(617, 244);
-            this.panelContainer1.FloatVertical = true;
-            this.panelContainer1.ID = new System.Guid("0a1d62a2-8763-4c18-b792-4b3981ba9adb");
-            this.panelContainer1.Location = new System.Drawing.Point(0, 147);
-            this.panelContainer1.Name = "panelContainer1";
-            this.panelContainer1.OriginalSize = new System.Drawing.Size(200, 247);
-            this.panelContainer1.Size = new System.Drawing.Size(1186, 247);
-            this.panelContainer1.Text = "panelContainer1";
-            // 
-            // majorDock
-            // 
-            this.majorDock.Controls.Add(this.dockPanel1_Container);
-            this.majorDock.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
-            this.majorDock.FloatSize = new System.Drawing.Size(617, 244);
-            this.majorDock.FloatVertical = true;
-            this.majorDock.ID = new System.Guid("08949597-af0a-4046-ad8b-8ba85ce81ac6");
-            this.majorDock.Location = new System.Drawing.Point(0, 0);
-            this.majorDock.Name = "majorDock";
-            this.majorDock.Options.ShowMaximizeButton = false;
-            this.majorDock.OriginalSize = new System.Drawing.Size(846, 247);
-            this.majorDock.Size = new System.Drawing.Size(897, 247);
-            this.majorDock.Text = "사업실적등록";
+            this.dockPanel1.Controls.Add(this.dockPanel1_Container);
+            this.dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Top;
+            this.dockPanel1.ID = new System.Guid("08949597-af0a-4046-ad8b-8ba85ce81ac6");
+            this.dockPanel1.Location = new System.Drawing.Point(0, 147);
+            this.dockPanel1.Name = "dockPanel1";
+            this.dockPanel1.OriginalSize = new System.Drawing.Size(200, 182);
+            this.dockPanel1.SavedDock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
+            this.dockPanel1.SavedIndex = 2;
+            this.dockPanel1.Size = new System.Drawing.Size(875, 235);
+            this.dockPanel1.Text = "사업실적등록";
             // 
             // dockPanel1_Container
             // 
-            this.dockPanel1_Container.Controls.Add(this.separateMyeongLabel);
-            this.dockPanel1_Container.Controls.Add(this.separateMyeongGroup);
-            this.dockPanel1_Container.Controls.Add(this.myeongValue);
-            this.dockPanel1_Container.Controls.Add(this.saveCreate);
-            this.dockPanel1_Container.Controls.Add(this.createRecentLabel);
-            this.dockPanel1_Container.Controls.Add(this.cancelButton);
-            this.dockPanel1_Container.Controls.Add(this.myeongLabel);
-            this.dockPanel1_Container.Controls.Add(this.remarksLabel);
-            this.dockPanel1_Container.Controls.Add(this.okButton);
-            this.dockPanel1_Container.Controls.Add(this.moneyLabel);
-            this.dockPanel1_Container.Controls.Add(this.facilityLabel);
-            this.dockPanel1_Container.Controls.Add(this.moneyValue);
-            this.dockPanel1_Container.Controls.Add(this.geonValue);
-            this.dockPanel1_Container.Controls.Add(this.geonLabel);
-            this.dockPanel1_Container.Controls.Add(this.facilityValue);
-            this.dockPanel1_Container.Controls.Add(this.programValue);
-            this.dockPanel1_Container.Controls.Add(this.opDateValue);
-            this.dockPanel1_Container.Controls.Add(this.programLabel);
-            this.dockPanel1_Container.Controls.Add(this.opDatelabel);
-            this.dockPanel1_Container.Controls.Add(this.remarksValue);
-            this.dockPanel1_Container.Controls.Add(this.createRecentComboBox);
             this.dockPanel1_Container.Location = new System.Drawing.Point(4, 23);
             this.dockPanel1_Container.Name = "dockPanel1_Container";
-            this.dockPanel1_Container.Size = new System.Drawing.Size(888, 219);
+            this.dockPanel1_Container.Size = new System.Drawing.Size(867, 207);
             this.dockPanel1_Container.TabIndex = 0;
             // 
-            // separateMyeongLabel
-            // 
-            this.separateMyeongLabel.Location = new System.Drawing.Point(20, 66);
-            this.separateMyeongLabel.Name = "separateMyeongLabel";
-            this.separateMyeongLabel.Size = new System.Drawing.Size(50, 14);
-            this.separateMyeongLabel.TabIndex = 41;
-            this.separateMyeongLabel.Text = "이용자구분";
-            // 
-            // separateMyeongGroup
-            // 
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupLabel5);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupLabel4);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupLabel3);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupLabel2);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupLabel1);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupLabel6);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupValue5);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupValue4);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupValue3);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupValue2);
-            this.separateMyeongGroup.Controls.Add(this.separateMyeongGroupValue1);
-            this.separateMyeongGroup.Location = new System.Drawing.Point(76, 66);
-            this.separateMyeongGroup.Name = "separateMyeongGroup";
-            this.separateMyeongGroup.ShowCaption = false;
-            this.separateMyeongGroup.Size = new System.Drawing.Size(270, 101);
-            this.separateMyeongGroup.TabIndex = 38;
-            this.separateMyeongGroup.Text = "명";
-            // 
-            // separateMyeongGroupLabel5
-            // 
-            this.separateMyeongGroupLabel5.Location = new System.Drawing.Point(20, 64);
-            this.separateMyeongGroupLabel5.Name = "separateMyeongGroupLabel5";
-            this.separateMyeongGroupLabel5.Size = new System.Drawing.Size(20, 14);
-            this.separateMyeongGroupLabel5.TabIndex = 47;
-            this.separateMyeongGroupLabel5.Text = "기타";
-            // 
-            // separateMyeongGroupLabel4
-            // 
-            this.separateMyeongGroupLabel4.Location = new System.Drawing.Point(117, 40);
-            this.separateMyeongGroupLabel4.Name = "separateMyeongGroupLabel4";
-            this.separateMyeongGroupLabel4.Size = new System.Drawing.Size(30, 14);
-            this.separateMyeongGroupLabel4.TabIndex = 45;
-            this.separateMyeongGroupLabel4.Text = "장애아";
-            // 
-            // separateMyeongGroupLabel3
-            // 
-            this.separateMyeongGroupLabel3.Location = new System.Drawing.Point(10, 41);
-            this.separateMyeongGroupLabel3.Name = "separateMyeongGroupLabel3";
-            this.separateMyeongGroupLabel3.Size = new System.Drawing.Size(30, 14);
-            this.separateMyeongGroupLabel3.TabIndex = 44;
-            this.separateMyeongGroupLabel3.Text = "저소득";
-            // 
-            // separateMyeongGroupLabel2
-            // 
-            this.separateMyeongGroupLabel2.Location = new System.Drawing.Point(117, 13);
-            this.separateMyeongGroupLabel2.Name = "separateMyeongGroupLabel2";
-            this.separateMyeongGroupLabel2.Size = new System.Drawing.Size(30, 14);
-            this.separateMyeongGroupLabel2.TabIndex = 43;
-            this.separateMyeongGroupLabel2.Text = "수급자";
-            // 
-            // separateMyeongGroupLabel1
-            // 
-            this.separateMyeongGroupLabel1.Location = new System.Drawing.Point(20, 13);
-            this.separateMyeongGroupLabel1.Name = "separateMyeongGroupLabel1";
-            this.separateMyeongGroupLabel1.Size = new System.Drawing.Size(20, 14);
-            this.separateMyeongGroupLabel1.TabIndex = 42;
-            this.separateMyeongGroupLabel1.Text = "일반";
-            // 
-            // separateMyeongGroupLabel6
-            // 
-            this.separateMyeongGroupLabel6.Location = new System.Drawing.Point(117, 67);
-            this.separateMyeongGroupLabel6.Name = "separateMyeongGroupLabel6";
-            this.separateMyeongGroupLabel6.Size = new System.Drawing.Size(131, 14);
-            this.separateMyeongGroupLabel6.TabIndex = 37;
-            this.separateMyeongGroupLabel6.Text = "*입력사항은 선택사항입니다";
-            // 
-            // separateMyeongGroupValue5
-            // 
-            this.separateMyeongGroupValue5.EditValue = "0";
-            this.separateMyeongGroupValue5.Location = new System.Drawing.Point(46, 61);
-            this.separateMyeongGroupValue5.Name = "separateMyeongGroupValue5";
-            this.separateMyeongGroupValue5.Properties.Mask.EditMask = "n0";
-            this.separateMyeongGroupValue5.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.separateMyeongGroupValue5.Size = new System.Drawing.Size(42, 20);
-            this.separateMyeongGroupValue5.TabIndex = 33;
-            // 
-            // separateMyeongGroupValue4
-            // 
-            this.separateMyeongGroupValue4.EditValue = "0";
-            this.separateMyeongGroupValue4.Location = new System.Drawing.Point(153, 37);
-            this.separateMyeongGroupValue4.Name = "separateMyeongGroupValue4";
-            this.separateMyeongGroupValue4.Properties.Mask.EditMask = "n0";
-            this.separateMyeongGroupValue4.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.separateMyeongGroupValue4.Size = new System.Drawing.Size(42, 20);
-            this.separateMyeongGroupValue4.TabIndex = 31;
-            // 
-            // separateMyeongGroupValue3
-            // 
-            this.separateMyeongGroupValue3.EditValue = "0";
-            this.separateMyeongGroupValue3.Location = new System.Drawing.Point(46, 38);
-            this.separateMyeongGroupValue3.Name = "separateMyeongGroupValue3";
-            this.separateMyeongGroupValue3.Properties.Mask.EditMask = "n0";
-            this.separateMyeongGroupValue3.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.separateMyeongGroupValue3.Size = new System.Drawing.Size(42, 20);
-            this.separateMyeongGroupValue3.TabIndex = 29;
-            // 
-            // separateMyeongGroupValue2
-            // 
-            this.separateMyeongGroupValue2.EditValue = "0";
-            this.separateMyeongGroupValue2.Location = new System.Drawing.Point(153, 10);
-            this.separateMyeongGroupValue2.Name = "separateMyeongGroupValue2";
-            this.separateMyeongGroupValue2.Properties.Mask.EditMask = "n0";
-            this.separateMyeongGroupValue2.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.separateMyeongGroupValue2.Size = new System.Drawing.Size(42, 20);
-            this.separateMyeongGroupValue2.TabIndex = 27;
-            // 
-            // separateMyeongGroupValue1
-            // 
-            this.separateMyeongGroupValue1.EditValue = "0";
-            this.separateMyeongGroupValue1.Location = new System.Drawing.Point(46, 11);
-            this.separateMyeongGroupValue1.Name = "separateMyeongGroupValue1";
-            this.separateMyeongGroupValue1.Properties.Mask.EditMask = "n0";
-            this.separateMyeongGroupValue1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.separateMyeongGroupValue1.Size = new System.Drawing.Size(42, 20);
-            this.separateMyeongGroupValue1.TabIndex = 25;
-            // 
-            // myeongValue
-            // 
-            this.myeongValue.EditValue = "0";
-            this.myeongValue.Location = new System.Drawing.Point(170, 40);
-            this.myeongValue.Name = "myeongValue";
-            this.myeongValue.Properties.Mask.EditMask = "n0";
-            this.myeongValue.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.myeongValue.Size = new System.Drawing.Size(42, 20);
-            this.myeongValue.TabIndex = 24;
-            // 
-            // saveCreate
-            // 
-            this.saveCreate.Location = new System.Drawing.Point(422, 175);
-            this.saveCreate.MenuManager = this.ribbonControl1;
-            this.saveCreate.Name = "saveCreate";
-            this.saveCreate.Properties.Caption = "작성내용을 자동입력으로 저장합니다";
-            this.saveCreate.Size = new System.Drawing.Size(213, 19);
-            this.saveCreate.TabIndex = 35;
-            // 
-            // createRecentLabel
-            // 
-            this.createRecentLabel.Location = new System.Drawing.Point(641, 17);
-            this.createRecentLabel.Name = "createRecentLabel";
-            this.createRecentLabel.Size = new System.Drawing.Size(84, 14);
-            this.createRecentLabel.TabIndex = 27;
-            this.createRecentLabel.Text = "자동입력 저장내역";
-            // 
-            // cancelButton
-            // 
-            this.cancelButton.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.cancelButton.Location = new System.Drawing.Point(271, 173);
-            this.cancelButton.MinimumSize = new System.Drawing.Size(75, 23);
-            this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(75, 23);
-            this.cancelButton.TabIndex = 33;
-            this.cancelButton.Text = "초기화";
-            // 
-            // myeongLabel
-            // 
-            this.myeongLabel.Location = new System.Drawing.Point(154, 43);
-            this.myeongLabel.Name = "myeongLabel";
-            this.myeongLabel.Size = new System.Drawing.Size(10, 14);
-            this.myeongLabel.TabIndex = 36;
-            this.myeongLabel.Text = "명";
-            // 
-            // remarksLabel
-            // 
-            this.remarksLabel.Location = new System.Drawing.Point(397, 41);
-            this.remarksLabel.Name = "remarksLabel";
-            this.remarksLabel.Size = new System.Drawing.Size(20, 14);
-            this.remarksLabel.TabIndex = 31;
-            this.remarksLabel.Text = "비고";
-            // 
-            // okButton
-            // 
-            this.okButton.Image = ((System.Drawing.Image)(resources.GetObject("okButton.Image")));
-            this.okButton.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.okButton.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.okButton.Location = new System.Drawing.Point(76, 173);
-            this.okButton.MinimumSize = new System.Drawing.Size(75, 23);
-            this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(75, 23);
-            this.okButton.TabIndex = 32;
-            this.okButton.Text = "등록";
-            // 
-            // moneyLabel
-            // 
-            this.moneyLabel.Location = new System.Drawing.Point(229, 43);
-            this.moneyLabel.Name = "moneyLabel";
-            this.moneyLabel.Size = new System.Drawing.Size(20, 14);
-            this.moneyLabel.TabIndex = 25;
-            this.moneyLabel.Text = "금액";
-            // 
-            // facilityLabel
-            // 
-            this.facilityLabel.Location = new System.Drawing.Point(46, 14);
-            this.facilityLabel.Name = "facilityLabel";
-            this.facilityLabel.Size = new System.Drawing.Size(24, 14);
-            this.facilityLabel.TabIndex = 17;
-            this.facilityLabel.Text = "시 설";
-            // 
-            // moneyValue
-            // 
-            this.moneyValue.EditValue = "\\0";
-            this.moneyValue.Location = new System.Drawing.Point(255, 40);
-            this.moneyValue.Name = "moneyValue";
-            this.moneyValue.Properties.Mask.EditMask = "c0";
-            this.moneyValue.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.moneyValue.Size = new System.Drawing.Size(91, 20);
-            this.moneyValue.TabIndex = 30;
-            // 
-            // geonValue
-            // 
-            this.geonValue.EditValue = "0";
-            this.geonValue.Location = new System.Drawing.Point(76, 39);
-            this.geonValue.Name = "geonValue";
-            this.geonValue.Properties.Mask.EditMask = "n0";
-            this.geonValue.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric;
-            this.geonValue.Size = new System.Drawing.Size(42, 20);
-            this.geonValue.TabIndex = 23;
-            // 
-            // geonLabel
-            // 
-            this.geonLabel.Location = new System.Drawing.Point(60, 39);
-            this.geonLabel.Name = "geonLabel";
-            this.geonLabel.Size = new System.Drawing.Size(10, 14);
-            this.geonLabel.TabIndex = 23;
-            this.geonLabel.Text = "건";
-            // 
-            // facilityValue
-            // 
-            this.facilityValue.EditValue = "휴먼기관";
-            this.facilityValue.Location = new System.Drawing.Point(76, 13);
-            this.facilityValue.Name = "facilityValue";
-            this.facilityValue.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.facilityValue.Properties.DropDownRows = 6;
-            this.facilityValue.Properties.Items.AddRange(new object[] {
-            "휴먼기관",
-            "사람복지",
-            "복지사람",
-            "오복지",
-            "SocialWelfare",
-            "아름다운사람들",
-            "의로운재단"});
-            this.facilityValue.Size = new System.Drawing.Size(136, 20);
-            this.facilityValue.TabIndex = 20;
-            // 
-            // programValue
-            // 
-            this.programValue.EditValue = "";
-            this.programValue.Location = new System.Drawing.Point(422, 14);
-            this.programValue.Name = "programValue";
-            this.programValue.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.programValue.Properties.DropDownRows = 13;
-            this.programValue.Properties.Items.AddRange(new object[] {
-            "좋은프로그램1",
-            "좋은프로그램2",
-            "가정방문",
-            "가족캠프",
-            "후원"});
-            this.programValue.Size = new System.Drawing.Size(213, 20);
-            this.programValue.TabIndex = 22;
-            // 
-            // opDateValue
-            // 
-            this.opDateValue.EditValue = null;
-            this.opDateValue.Location = new System.Drawing.Point(255, 14);
-            this.opDateValue.Name = "opDateValue";
-            this.opDateValue.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.opDateValue.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.opDateValue.Properties.CalendarView = DevExpress.XtraEditors.Repository.CalendarView.TouchUI;
-            this.opDateValue.Properties.DisplayFormat.FormatString = "";
-            this.opDateValue.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.opDateValue.Properties.EditFormat.FormatString = "";
-            this.opDateValue.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.opDateValue.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
-            this.opDateValue.Size = new System.Drawing.Size(91, 20);
-            this.opDateValue.TabIndex = 21;
-            // 
-            // programLabel
-            // 
-            this.programLabel.Location = new System.Drawing.Point(352, 16);
-            this.programLabel.Name = "programLabel";
-            this.programLabel.Size = new System.Drawing.Size(64, 14);
-            this.programLabel.TabIndex = 19;
-            this.programLabel.Text = "단위 프로그램";
-            // 
-            // opDatelabel
-            // 
-            this.opDatelabel.Location = new System.Drawing.Point(219, 16);
-            this.opDatelabel.Name = "opDatelabel";
-            this.opDatelabel.Size = new System.Drawing.Size(30, 14);
-            this.opDatelabel.TabIndex = 18;
-            this.opDatelabel.Text = "시행일";
-            // 
-            // remarksValue
-            // 
-            this.remarksValue.Location = new System.Drawing.Point(422, 38);
-            this.remarksValue.MenuManager = this.ribbonControl1;
-            this.remarksValue.Name = "remarksValue";
-            this.remarksValue.Size = new System.Drawing.Size(213, 129);
-            this.remarksValue.TabIndex = 31;
-            // 
-            // createRecentComboBox
-            // 
-            this.createRecentComboBox.EditValue = "";
-            this.createRecentComboBox.Location = new System.Drawing.Point(731, 14);
-            this.createRecentComboBox.MenuManager = this.ribbonControl1;
-            this.createRecentComboBox.Name = "createRecentComboBox";
-            this.createRecentComboBox.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.createRecentComboBox.Properties.Items.AddRange(new object[] {
-            "휴먼기관 10/10 입력내용",
-            "휴먼기관 10/09 입력내용"});
-            this.createRecentComboBox.Size = new System.Drawing.Size(103, 20);
-            this.createRecentComboBox.TabIndex = 40;
-            // 
-            // navigationDock
-            // 
-            this.navigationDock.Controls.Add(this.dockPanel3_Container);
-            this.navigationDock.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
-            this.navigationDock.FloatSize = new System.Drawing.Size(250, 240);
-            this.navigationDock.ID = new System.Guid("4f562b62-870c-4a31-98fd-798e9ac31ee9");
-            this.navigationDock.Location = new System.Drawing.Point(897, 0);
-            this.navigationDock.Name = "navigationDock";
-            this.navigationDock.Options.ShowAutoHideButton = false;
-            this.navigationDock.Options.ShowMaximizeButton = false;
-            this.navigationDock.OriginalSize = new System.Drawing.Size(340, 247);
-            this.navigationDock.Size = new System.Drawing.Size(289, 247);
-            this.navigationDock.Text = "리모콘";
-            // 
-            // dockPanel3_Container
-            // 
-            this.dockPanel3_Container.Controls.Add(this.remoteButton2);
-            this.dockPanel3_Container.Controls.Add(this.remoteButton1);
-            this.dockPanel3_Container.Controls.Add(this.remoteButton5);
-            this.dockPanel3_Container.Controls.Add(this.remoconSettingButton);
-            this.dockPanel3_Container.Controls.Add(this.remoteButton0);
-            this.dockPanel3_Container.Controls.Add(this.remoteButton7);
-            this.dockPanel3_Container.Controls.Add(this.remoteButton8);
-            this.dockPanel3_Container.Controls.Add(this.remoteButton4);
-            this.dockPanel3_Container.Location = new System.Drawing.Point(4, 23);
-            this.dockPanel3_Container.Name = "dockPanel3_Container";
-            this.dockPanel3_Container.Size = new System.Drawing.Size(281, 219);
-            this.dockPanel3_Container.TabIndex = 0;
-            // 
-            // remoconSettingButton
-            // 
-            this.remoconSettingButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.remoconSettingButton.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.remoconSettingButton.Image = ((System.Drawing.Image)(resources.GetObject("remoconSettingButton.Image")));
-            this.remoconSettingButton.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.remoconSettingButton.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.remoconSettingButton.Location = new System.Drawing.Point(244, 0);
-            this.remoconSettingButton.MinimumSize = new System.Drawing.Size(37, 23);
-            this.remoconSettingButton.Name = "remoconSettingButton";
-            this.remoconSettingButton.Size = new System.Drawing.Size(37, 23);
-            this.remoconSettingButton.TabIndex = 48;
-            // 
-            // remoteButton0
-            // 
-            this.remoteButton0.Image = ((System.Drawing.Image)(resources.GetObject("remoteButton0.Image")));
-            this.remoteButton0.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.remoteButton0.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.remoteButton0.Location = new System.Drawing.Point(61, 159);
-            this.remoteButton0.MinimumSize = new System.Drawing.Size(150, 46);
-            this.remoteButton0.Name = "remoteButton0";
-            this.remoteButton0.Size = new System.Drawing.Size(156, 46);
-            this.remoteButton0.TabIndex = 47;
-            this.remoteButton0.Text = "사업실적 보고서";
-            this.remoteButton0.Click += new System.EventHandler(this.remoteButton0_Click);
-            // 
-            // remoteButton7
-            // 
-            this.remoteButton7.Image = ((System.Drawing.Image)(resources.GetObject("remoteButton7.Image")));
-            this.remoteButton7.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.remoteButton7.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.remoteButton7.Location = new System.Drawing.Point(61, 3);
-            this.remoteButton7.MinimumSize = new System.Drawing.Size(75, 46);
-            this.remoteButton7.Name = "remoteButton7";
-            this.remoteButton7.Size = new System.Drawing.Size(75, 46);
-            this.remoteButton7.TabIndex = 41;
-            this.remoteButton7.Text = "등록";
-            // 
-            // remoteButton8
-            // 
-            this.remoteButton8.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.remoteButton8.Location = new System.Drawing.Point(142, 3);
-            this.remoteButton8.MinimumSize = new System.Drawing.Size(75, 46);
-            this.remoteButton8.Name = "remoteButton8";
-            this.remoteButton8.Size = new System.Drawing.Size(75, 46);
-            this.remoteButton8.TabIndex = 42;
-            this.remoteButton8.Text = "초기화";
-            // 
-            // remoteButton4
-            // 
-            this.remoteButton4.Image = ((System.Drawing.Image)(resources.GetObject("remoteButton4.Image")));
-            this.remoteButton4.ImageLocation = DevExpress.XtraEditors.ImageLocation.BottomCenter;
-            this.remoteButton4.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.remoteButton4.Location = new System.Drawing.Point(61, 55);
-            this.remoteButton4.MinimumSize = new System.Drawing.Size(75, 46);
-            this.remoteButton4.Name = "remoteButton4";
-            this.remoteButton4.Size = new System.Drawing.Size(75, 46);
-            this.remoteButton4.TabIndex = 43;
-            // 
-            // minorDock
-            // 
-            this.minorDock.Controls.Add(this.dockPanel2_Container);
-            this.minorDock.Dock = DevExpress.XtraBars.Docking.DockingStyle.Bottom;
-            this.minorDock.ID = new System.Guid("56965081-b56b-4754-94c5-9f3b0bd852af");
-            this.minorDock.Location = new System.Drawing.Point(0, 394);
-            this.minorDock.Name = "minorDock";
-            this.minorDock.OriginalSize = new System.Drawing.Size(675, 342);
-            this.minorDock.Size = new System.Drawing.Size(1186, 342);
-            this.minorDock.Text = "금일 실적";
+            // dockPanel2
+            // 
+            this.dockPanel2.Controls.Add(this.dockPanel2_Container);
+            this.dockPanel2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Bottom;
+            this.dockPanel2.FloatVertical = true;
+            this.dockPanel2.ID = new System.Guid("56965081-b56b-4754-94c5-9f3b0bd852af");
+            this.dockPanel2.Location = new System.Drawing.Point(0, 382);
+            this.dockPanel2.Name = "dockPanel2";
+            this.dockPanel2.OriginalSize = new System.Drawing.Size(200, 202);
+            this.dockPanel2.Size = new System.Drawing.Size(875, 202);
+            this.dockPanel2.Text = "금일 실적";
+            this.dockPanel2.Click += new System.EventHandler(this.dockPanel2_Click);
             // 
             // dockPanel2_Container
             // 
-            this.dockPanel2_Container.Controls.Add(this.performanceReadGridView);
+            this.dockPanel2_Container.Controls.Add(this.dataGridView1);
             this.dockPanel2_Container.Location = new System.Drawing.Point(4, 24);
             this.dockPanel2_Container.Name = "dockPanel2_Container";
-            this.dockPanel2_Container.Size = new System.Drawing.Size(1178, 314);
+            this.dockPanel2_Container.Size = new System.Drawing.Size(867, 174);
             this.dockPanel2_Container.TabIndex = 0;
             // 
-            // performanceReadGridView
+            // dataGridView1
             // 
-            this.performanceReadGridView.AllowUserToOrderColumns = true;
-            this.performanceReadGridView.AutoGenerateColumns = false;
-            this.performanceReadGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.performanceReadGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.performanceReadGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.번호DataGridViewTextBoxColumn,
             this.사업분류DataGridViewTextBoxColumn,
             this.세부사업DataGridViewTextBoxColumn,
@@ -1059,24 +548,21 @@ namespace DXApplication2
             this.건DataGridViewTextBoxColumn,
             this.명DataGridViewTextBoxColumn,
             this.금액DataGridViewTextBoxColumn});
-            this.performanceReadGridView.DataSource = this.excelDataSource1;
-            this.performanceReadGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.performanceReadGridView.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.performanceReadGridView.Location = new System.Drawing.Point(0, 0);
-            this.performanceReadGridView.Name = "performanceReadGridView";
-            this.performanceReadGridView.RowTemplate.Height = 23;
-            this.performanceReadGridView.Size = new System.Drawing.Size(1178, 314);
-            this.performanceReadGridView.TabIndex = 99;
-            this.performanceReadGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.DataSource = this.excelDataSource1;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(867, 174);
+            this.dataGridView1.TabIndex = 0;
             // 
             // 번호DataGridViewTextBoxColumn
             // 
             this.번호DataGridViewTextBoxColumn.DataPropertyName = "번호";
-            this.번호DataGridViewTextBoxColumn.FillWeight = 60F;
             this.번호DataGridViewTextBoxColumn.HeaderText = "번호";
             this.번호DataGridViewTextBoxColumn.Name = "번호DataGridViewTextBoxColumn";
             this.번호DataGridViewTextBoxColumn.ReadOnly = true;
-            this.번호DataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // 사업분류DataGridViewTextBoxColumn
             // 
@@ -1120,175 +606,124 @@ namespace DXApplication2
             this.금액DataGridViewTextBoxColumn.Name = "금액DataGridViewTextBoxColumn";
             this.금액DataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // excelDataSource4
+            // dockPanel3
             // 
-            this.excelDataSource4.FileName = "D:\\proyks\\작업\\D 프로그램\\testExcelData\\testData_사업실적등록_명.xlsx";
-            this.excelDataSource4.Name = "excelDataSource4";
-            this.excelDataSource4.ResultSchemaSerializable = "PFZpZXc+PEZpZWxkIE5hbWU9IuydtOyaqeyekCDqtazrtoQgIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkI" +
-    "E5hbWU9IuuqhSIgVHlwZT0iRG91YmxlIiAvPjwvVmlldz4=";
-            fieldInfo8.Name = "이용자 구분 ";
-            fieldInfo8.Type = typeof(string);
-            fieldInfo9.Name = "명";
-            fieldInfo9.Type = typeof(double);
-            this.excelDataSource4.Schema.AddRange(new DevExpress.DataAccess.Excel.FieldInfo[] {
-            fieldInfo8,
-            fieldInfo9});
-            excelWorksheetSettings2.CellRange = null;
-            excelWorksheetSettings2.WorksheetName = "Sheet1";
-            excelSourceOptions2.ImportSettings = excelWorksheetSettings2;
-            this.excelDataSource4.SourceOptions = excelSourceOptions2;
+            this.dockPanel3.Controls.Add(this.dockPanel3_Container);
+            this.dockPanel3.Dock = DevExpress.XtraBars.Docking.DockingStyle.Float;
+            this.dockPanel3.FloatLocation = new System.Drawing.Point(1768, 245);
+            this.dockPanel3.FloatSize = new System.Drawing.Size(144, 253);
+            this.dockPanel3.ID = new System.Guid("4f562b62-870c-4a31-98fd-798e9ac31ee9");
+            this.dockPanel3.Location = new System.Drawing.Point(0, 0);
+            this.dockPanel3.Name = "dockPanel3";
+            this.dockPanel3.OriginalSize = new System.Drawing.Size(200, 200);
+            this.dockPanel3.SavedDock = DevExpress.XtraBars.Docking.DockingStyle.Right;
+            this.dockPanel3.SavedIndex = 1;
+            this.dockPanel3.Size = new System.Drawing.Size(144, 253);
+            this.dockPanel3.Text = "dockPanel3";
+            // 
+            // dockPanel3_Container
+            // 
+            this.dockPanel3_Container.Location = new System.Drawing.Point(4, 24);
+            this.dockPanel3_Container.Name = "dockPanel3_Container";
+            this.dockPanel3_Container.Size = new System.Drawing.Size(136, 225);
+            this.dockPanel3_Container.TabIndex = 0;
             // 
             // excelDataSource2
             // 
             this.excelDataSource2.FileName = "D:\\proyks\\작업\\D 프로그램\\testExcelData\\testData_사업실적등록.xlsx";
             this.excelDataSource2.Name = "excelDataSource2";
             this.excelDataSource2.ResultSchemaSerializable = "PFZpZXc+PEZpZWxkIE5hbWU9IkNvbHVtbjQiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+";
-            fieldInfo10.Name = "Column1";
+            fieldInfo8.Name = "Column1";
+            fieldInfo8.Selected = false;
+            fieldInfo8.Type = typeof(double);
+            fieldInfo9.Name = "Column2";
+            fieldInfo9.Selected = false;
+            fieldInfo9.Type = typeof(string);
+            fieldInfo10.Name = "Column3";
             fieldInfo10.Selected = false;
-            fieldInfo10.Type = typeof(double);
-            fieldInfo11.Name = "Column2";
-            fieldInfo11.Selected = false;
+            fieldInfo10.Type = typeof(string);
+            fieldInfo11.Name = "Column4";
             fieldInfo11.Type = typeof(string);
-            fieldInfo12.Name = "Column3";
+            fieldInfo12.Name = "Column5";
             fieldInfo12.Selected = false;
-            fieldInfo12.Type = typeof(string);
-            fieldInfo13.Name = "Column4";
-            fieldInfo13.Type = typeof(string);
-            fieldInfo14.Name = "Column5";
+            fieldInfo12.Type = typeof(double);
+            fieldInfo13.Name = "Column6";
+            fieldInfo13.Selected = false;
+            fieldInfo13.Type = typeof(double);
+            fieldInfo14.Name = "Column7";
             fieldInfo14.Selected = false;
             fieldInfo14.Type = typeof(double);
-            fieldInfo15.Name = "Column6";
-            fieldInfo15.Selected = false;
-            fieldInfo15.Type = typeof(double);
-            fieldInfo16.Name = "Column7";
-            fieldInfo16.Selected = false;
-            fieldInfo16.Type = typeof(double);
             this.excelDataSource2.Schema.AddRange(new DevExpress.DataAccess.Excel.FieldInfo[] {
+            fieldInfo8,
+            fieldInfo9,
             fieldInfo10,
             fieldInfo11,
             fieldInfo12,
             fieldInfo13,
-            fieldInfo14,
-            fieldInfo15,
-            fieldInfo16});
-            excelWorksheetSettings3.CellRange = null;
-            excelWorksheetSettings3.WorksheetName = "Sheet1";
-            excelSourceOptions3.ImportSettings = excelWorksheetSettings3;
-            excelSourceOptions3.UseFirstRowAsHeader = false;
-            this.excelDataSource2.SourceOptions = excelSourceOptions3;
+            fieldInfo14});
+            excelWorksheetSettings2.CellRange = null;
+            excelWorksheetSettings2.WorksheetName = "Sheet1";
+            excelSourceOptions2.ImportSettings = excelWorksheetSettings2;
+            excelSourceOptions2.UseFirstRowAsHeader = false;
+            this.excelDataSource2.SourceOptions = excelSourceOptions2;
             // 
             // excelDataSource3
             // 
             this.excelDataSource3.FileName = "D:\\proyks\\작업\\D 프로그램\\testExcelData\\testData_사업실적등록.xlsx";
             this.excelDataSource3.Name = "excelDataSource3";
             this.excelDataSource3.ResultSchemaSerializable = resources.GetString("excelDataSource3.ResultSchemaSerializable");
-            fieldInfo17.Name = "Column1";
-            fieldInfo17.Type = typeof(double);
-            fieldInfo18.Name = "Column2";
+            fieldInfo15.Name = "Column1";
+            fieldInfo15.Type = typeof(double);
+            fieldInfo16.Name = "Column2";
+            fieldInfo16.Type = typeof(string);
+            fieldInfo17.Name = "Column3";
+            fieldInfo17.Type = typeof(string);
+            fieldInfo18.Name = "Column4";
             fieldInfo18.Type = typeof(string);
-            fieldInfo19.Name = "Column3";
-            fieldInfo19.Type = typeof(string);
-            fieldInfo20.Name = "Column4";
-            fieldInfo20.Type = typeof(string);
-            fieldInfo21.Name = "Column5";
+            fieldInfo19.Name = "Column5";
+            fieldInfo19.Type = typeof(double);
+            fieldInfo20.Name = "Column6";
+            fieldInfo20.Type = typeof(double);
+            fieldInfo21.Name = "Column7";
             fieldInfo21.Type = typeof(double);
-            fieldInfo22.Name = "Column6";
-            fieldInfo22.Type = typeof(double);
-            fieldInfo23.Name = "Column7";
-            fieldInfo23.Type = typeof(double);
             this.excelDataSource3.Schema.AddRange(new DevExpress.DataAccess.Excel.FieldInfo[] {
+            fieldInfo15,
+            fieldInfo16,
             fieldInfo17,
             fieldInfo18,
             fieldInfo19,
             fieldInfo20,
-            fieldInfo21,
-            fieldInfo22,
-            fieldInfo23});
-            excelWorksheetSettings4.CellRange = null;
-            excelWorksheetSettings4.WorksheetName = "Sheet1";
-            excelSourceOptions4.ImportSettings = excelWorksheetSettings4;
-            excelSourceOptions4.UseFirstRowAsHeader = false;
-            this.excelDataSource3.SourceOptions = excelSourceOptions4;
-            // 
-            // remoteButton5
-            // 
-            this.remoteButton5.Image = ((System.Drawing.Image)(resources.GetObject("remoteButton5.Image")));
-            this.remoteButton5.ImageLocation = DevExpress.XtraEditors.ImageLocation.BottomCenter;
-            this.remoteButton5.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.remoteButton5.Location = new System.Drawing.Point(142, 55);
-            this.remoteButton5.MinimumSize = new System.Drawing.Size(75, 46);
-            this.remoteButton5.Name = "remoteButton5";
-            this.remoteButton5.Size = new System.Drawing.Size(75, 46);
-            this.remoteButton5.TabIndex = 44;
-            // 
-            // remoteButton2
-            // 
-            this.remoteButton2.Image = ((System.Drawing.Image)(resources.GetObject("remoteButton2.Image")));
-            this.remoteButton2.ImageLocation = DevExpress.XtraEditors.ImageLocation.BottomCenter;
-            this.remoteButton2.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.remoteButton2.Location = new System.Drawing.Point(142, 107);
-            this.remoteButton2.MinimumSize = new System.Drawing.Size(75, 46);
-            this.remoteButton2.Name = "remoteButton2";
-            this.remoteButton2.Size = new System.Drawing.Size(75, 46);
-            this.remoteButton2.TabIndex = 50;
-            // 
-            // remoteButton1
-            // 
-            this.remoteButton1.Image = ((System.Drawing.Image)(resources.GetObject("remoteButton1.Image")));
-            this.remoteButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.BottomCenter;
-            this.remoteButton1.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.remoteButton1.Location = new System.Drawing.Point(61, 107);
-            this.remoteButton1.MinimumSize = new System.Drawing.Size(75, 46);
-            this.remoteButton1.Name = "remoteButton1";
-            this.remoteButton1.Size = new System.Drawing.Size(75, 46);
-            this.remoteButton1.TabIndex = 49;
+            fieldInfo21});
+            excelWorksheetSettings3.CellRange = null;
+            excelWorksheetSettings3.WorksheetName = "Sheet1";
+            excelSourceOptions3.ImportSettings = excelWorksheetSettings3;
+            excelSourceOptions3.UseFirstRowAsHeader = false;
+            this.excelDataSource3.SourceOptions = excelSourceOptions3;
             // 
             // main
             // 
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.False;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1186, 736);
+            this.ClientSize = new System.Drawing.Size(875, 584);
             this.Controls.Add(this.backstageViewControl1);
-            this.Controls.Add(this.minorDock);
-            this.Controls.Add(this.panelContainer1);
+            this.Controls.Add(this.dockPanel2);
+            this.Controls.Add(this.dockPanel1);
             this.Controls.Add(this.ribbonControl1);
             this.MinimumSize = this.ClientSize;
             this.Name = "main";
             this.Ribbon = this.ribbonControl1;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SWM Project2";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.메인화면_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.backstageViewControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).EndInit();
-            this.panelContainer1.ResumeLayout(false);
-            this.majorDock.ResumeLayout(false);
-            this.dockPanel1_Container.ResumeLayout(false);
-            this.dockPanel1_Container.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroup)).EndInit();
-            this.separateMyeongGroup.ResumeLayout(false);
-            this.separateMyeongGroup.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separateMyeongGroupValue1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.myeongValue.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.saveCreate.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.moneyValue.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.geonValue.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.facilityValue.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.programValue.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.opDateValue.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.opDateValue.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.remarksValue.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.createRecentComboBox.Properties)).EndInit();
-            this.navigationDock.ResumeLayout(false);
-            this.dockPanel3_Container.ResumeLayout(false);
-            this.minorDock.ResumeLayout(false);
+            this.dockPanel1.ResumeLayout(false);
+            this.dockPanel2.ResumeLayout(false);
             this.dockPanel2_Container.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.performanceReadGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.dockPanel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1297,18 +732,18 @@ namespace DXApplication2
         #endregion
 
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl1;
-        private DevExpress.XtraBars.Ribbon.RibbonPage homePage;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
-        private DevExpress.XtraBars.BarButtonItem performanceCreate;
-        private DevExpress.XtraBars.BarSubItem performanceReadMenu;
+        private DevExpress.XtraBars.BarButtonItem 사업실적등록;
+        private DevExpress.XtraBars.BarSubItem 실적조회;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.BarButtonItem performanceReport;
-        private DevExpress.XtraBars.BarButtonItem codeManage;
-        private DevExpress.XtraBars.BarButtonItem information;
-        private DevExpress.XtraBars.BarButtonItem performanceDetail;
-        private DevExpress.XtraBars.BarButtonItem performanceStatistics;
-        private DevExpress.XtraBars.BarSubItem systemMenu;
+        private DevExpress.XtraBars.BarButtonItem 코드관리;
+        private DevExpress.XtraBars.BarButtonItem 도움말;
+        private DevExpress.XtraBars.BarButtonItem 실적조회_세부내용;
+        private DevExpress.XtraBars.BarButtonItem 실적조회_통계;
+        private DevExpress.XtraBars.BarSubItem 시스템;
         private DevExpress.XtraBars.BarButtonItem changePassword;
         private DevExpress.XtraBars.BarLinkContainerItem barLinkContainerItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem7;
@@ -1316,52 +751,26 @@ namespace DXApplication2
         private DevExpress.XtraBars.Ribbon.BackstageViewButtonItem backstageViewButtonItem1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.BarListItem barListItem1;
-        private DevExpress.XtraBars.BarButtonItem userCreate;
-        private DevExpress.XtraBars.BarButtonItem printSetting;
-        private DevExpress.XtraBars.BarButtonItem dbPathSetting;
+        private DevExpress.XtraBars.BarButtonItem 시스템_부서사용자등록;
+        private DevExpress.XtraBars.BarButtonItem 시스템_프린터설정;
+        private DevExpress.XtraBars.BarButtonItem 시스템_DB경로설정;
         private DevExpress.XtraBars.BarWorkspaceMenuItem barWorkspaceMenuItem1;
         private DevExpress.XtraBars.BarDockingMenuItem barDockingMenuItem1;
         private DevExpress.XtraBars.BarDockingMenuItem barDockingMenuItem2;
         private DevExpress.XtraBars.BarSubItem barSubItem3;
         private DevExpress.XtraBars.BarButtonItem setting;
-        private DevExpress.XtraBars.BarSubItem toolsMenu;
-        private DevExpress.XtraBars.BarButtonItem calendar;
-        private DevExpress.XtraBars.BarButtonItem postCode;
+        private DevExpress.XtraBars.BarSubItem 도구모음;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem13;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem14;
         private DevExpress.XtraBars.Ribbon.BackstageViewTabItem backstageViewTabItem1;
         private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource1;
         private DevExpress.Utils.WorkspaceManager workspaceManager1;
-        private DevExpress.XtraBars.Docking.DockPanel majorDock;
+        private DevExpress.XtraBars.Docking.DockPanel dockPanel1;
         private DevExpress.XtraBars.Docking.ControlContainer dockPanel1_Container;
-        private DevExpress.XtraBars.Docking.DockPanel minorDock;
+        private DevExpress.XtraBars.Docking.DockPanel dockPanel2;
         private DevExpress.XtraBars.Docking.ControlContainer dockPanel2_Container;
         private DevExpress.XtraBars.Docking.DockManager dockManager1;
-        private DevExpress.XtraBars.Docking.DockPanel navigationDock;
-        private DevExpress.XtraBars.Docking.ControlContainer dockPanel3_Container;
-        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource2;
-        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource3;
-        private DevExpress.XtraEditors.LabelControl moneyLabel;
-        private DevExpress.XtraEditors.LabelControl facilityLabel;
-        private DevExpress.XtraEditors.TextEdit moneyValue;
-        private DevExpress.XtraEditors.TextEdit geonValue;
-        private DevExpress.XtraEditors.LabelControl geonLabel;
-        private DevExpress.XtraEditors.ComboBoxEdit facilityValue;
-        private DevExpress.XtraEditors.ComboBoxEdit programValue;
-        private DevExpress.XtraEditors.DateEdit opDateValue;
-        private DevExpress.XtraEditors.LabelControl programLabel;
-        private DevExpress.XtraEditors.LabelControl opDatelabel;
-        private DevExpress.XtraEditors.SimpleButton okButton;
-        private System.Windows.Forms.DataGridView performanceReadGridView;
-        private DevExpress.XtraEditors.LabelControl remarksLabel;
-        private DevExpress.XtraEditors.MemoEdit remarksValue;
-        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource4;
-        private DevExpress.XtraEditors.LabelControl myeongLabel;
-        private DevExpress.XtraEditors.SimpleButton cancelButton;
-        private DevExpress.XtraEditors.LabelControl createRecentLabel;
-        private DevExpress.XtraEditors.CheckEdit saveCreate;
-        private DevExpress.XtraEditors.SimpleButton remoteButton0;
-        private DevExpress.XtraEditors.SimpleButton remoteButton7;
-        private DevExpress.XtraEditors.SimpleButton remoteButton8;
-        private DevExpress.XtraEditors.SimpleButton remoteButton4;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 번호DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 사업분류DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 세부사업DataGridViewTextBoxColumn;
@@ -1369,26 +778,10 @@ namespace DXApplication2
         private System.Windows.Forms.DataGridViewTextBoxColumn 건DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 명DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn 금액DataGridViewTextBoxColumn;
-        private DevExpress.XtraEditors.SimpleButton remoconSettingButton;
-        private DevExpress.XtraBars.Docking.DockPanel panelContainer1;
-        private DevExpress.XtraEditors.GroupControl separateMyeongGroup;
-        private DevExpress.XtraEditors.TextEdit myeongValue;
-        private DevExpress.XtraEditors.TextEdit separateMyeongGroupValue5;
-        private DevExpress.XtraEditors.TextEdit separateMyeongGroupValue4;
-        private DevExpress.XtraEditors.TextEdit separateMyeongGroupValue3;
-        private DevExpress.XtraEditors.TextEdit separateMyeongGroupValue2;
-        private DevExpress.XtraEditors.TextEdit separateMyeongGroupValue1;
-        private DevExpress.XtraEditors.LabelControl separateMyeongLabel;
-        private DevExpress.XtraEditors.LabelControl separateMyeongGroupLabel6;
-        private DevExpress.XtraEditors.ComboBoxEdit createRecentComboBox;
-        private DevExpress.XtraEditors.LabelControl separateMyeongGroupLabel5;
-        private DevExpress.XtraEditors.LabelControl separateMyeongGroupLabel4;
-        private DevExpress.XtraEditors.LabelControl separateMyeongGroupLabel3;
-        private DevExpress.XtraEditors.LabelControl separateMyeongGroupLabel2;
-        private DevExpress.XtraEditors.LabelControl separateMyeongGroupLabel1;
-        private DevExpress.XtraEditors.SimpleButton remoteButton2;
-        private DevExpress.XtraEditors.SimpleButton remoteButton1;
-        private DevExpress.XtraEditors.SimpleButton remoteButton5;
+        private DevExpress.XtraBars.Docking.DockPanel dockPanel3;
+        private DevExpress.XtraBars.Docking.ControlContainer dockPanel3_Container;
+        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource2;
+        private DevExpress.DataAccess.Excel.ExcelDataSource excelDataSource3;
     }
 }
 

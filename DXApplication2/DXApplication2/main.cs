@@ -21,45 +21,82 @@ namespace DXApplication2
 
 
         /// <summary>
-        /// 사업실적등록 클릭 : 클릭시 Hidden상태면 Show() 호출하여 visible로 변경 후 activate한다.  , visible이면 hidden 으로 변경 한다(hide()).
+        /// 사업실적등록 클릭 : 클릭시 독활성화 여부에 따라, dock activate 혹은 실적등록 dock 생성
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void performanceCreate_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (majorDock.Visibility == DevExpress.XtraBars.Docking.DockVisibility.Hidden)
+
+            if (dockPanel1.Visibility == DevExpress.XtraBars.Docking.DockVisibility.Hidden)
             {
-                majorDock.Show();
+
+
+                ////dockManager1.BeginInit();
+                ////dockManager1.AddPanel = 
+                ////dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Top;
+                ////dockPanel1.BringToFront();
+                ////dockManager1.AddPanel(dockPanel1.Dock);
+                //dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill;
+                dockPanel1.Show();
+
+                ////dockManager1.EndInit();
+                ////MessageBox.Show("show");
             }
             else
             {
-                majorDock.Hide();
+                dockPanel1.Hide();
             }
 
-            // Not use - 기존 새 폼으로 띄어주고있는 내용
             //사업실적등록 newForm = new 사업실적등록();
             //newForm.Owner = this;
             //newForm.Show();
 
+            ////모달창으로 열기
+            //subForm.Owner = this;
+            //subForm.ShowDialog();
         }
 
-        /// <summary>
-        /// 클릭시 실적보고서 호출
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void performanceReport_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            //if(dockPanel1 != null)
-            //if (dockPanel1.Visibility == DevExpress.XtraBars.Docking.DockVisibility.Visible)
-            //{
-            //    //dockPanel1_Container.Dispose();
-            //    dockPanel1.Hide();
-            //}
-
             실적보고서 newForm = new 실적보고서();
             newForm.Owner = this;
             newForm.Show();
+        }
+
+        private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barListItem1_ListItemClick(object sender, DevExpress.XtraBars.ListItemClickEventArgs e)
+        {
+
+        }
+
+        private void backstageViewControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backstageViewButtonItem1_ItemClick(object sender, DevExpress.XtraBars.Ribbon.BackstageViewItemEventArgs e)
+        {
+
+        }
+
+        private void barWorkspaceMenuItem1_ListItemClick(object sender, DevExpress.XtraBars.ListItemClickEventArgs e)
+        {
+
         }
 
         private void 메인화면_Load(object sender, EventArgs e)
@@ -67,63 +104,32 @@ namespace DXApplication2
 
         }
 
-        /// <summary>
-        /// 암호변경 메뉴 클릭시, modal로 새창 열기
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void changepassword_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            ////모달창으로 열기
             Settings.Changepassword newForm = new Settings.Changepassword();
             newForm.Owner = this;
-            newForm.ShowDialog();
+            newForm.Show();
+
+
         }
 
-
-        /// <summary>
-        /// 시스템 DB경로설정 메뉴 클릭시, modal로 새창 열기
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void 시스템_DB경로설정_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            ////모달창으로 열기
             Settings.DBPathSetting newForm = new Settings.DBPathSetting();
+            newForm.Owner = this;
+            newForm.Show();
+        }
+
+        private void setting_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            //Settings.DBPathSetting newForm = new Settings.DBPathSetting();
             //newForm.Owner = this;
-            newForm.ShowDialog();
-
+            //newForm.Show();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            performanceUpdate(e.RowIndex);
-        }
-
-
-        /// <summary>
-        /// 등록한 실적데이터 수정
-        /// 1. 금일 실적 data 목록에서 원하는 row 클릭시 실행
-        /// </summary>
-        /// <param name="rowIndex">수정할 data의 index값 </param>
-        private void performanceUpdate(int rowIndex)
-        {
-            // DB에서 해당 row값 데이터 반환 (DB연동 필요)
-
-            //해당 데이터 내용 을 사업실적수정란에 text 입력 (추후 구현)
-            MessageBox.Show(rowIndex.ToString());
-        }
-
-        /// <summary>
-        /// 리모컨 버튼 0번 클릭 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void remoteButton0_Click(object sender, EventArgs e)
+        private void dockPanel2_Click(object sender, EventArgs e)
         {
 
-            performanceReport_ItemClick(sender, null);
         }
-
     }
 }
