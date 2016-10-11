@@ -223,9 +223,7 @@ D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXAppli
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.Settings.Changepassword.resources
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.main.resources
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.Properties.Resources.resources
-D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.사업실적등록.resources
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.실적보고서.resources
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.통계.resources
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\project2.csproj.GenerateResource.Cache
 D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.exe.licenses
-D:\proyks\Projects\Git\project-D\DXApplication2\DXApplication2\obj\Debug\DXApplication2.Form1.resources

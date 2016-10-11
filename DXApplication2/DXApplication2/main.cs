@@ -21,7 +21,7 @@ namespace DXApplication2
 
 
         /// <summary>
-        /// 사업실적등록 클릭 : 클릭시 Hidden상태면, visible로 변경 후 activate한다. (show) , visible이면 hidden 으로 변경 한다(hide()).
+        /// 사업실적등록 클릭 : 클릭시 Hidden상태면 Show() 호출하여 visible로 변경 후 activate한다.  , visible이면 hidden 으로 변경 한다(hide()).
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -40,7 +40,6 @@ namespace DXApplication2
             //사업실적등록 newForm = new 사업실적등록();
             //newForm.Owner = this;
             //newForm.Show();
-
             ////모달창으로 열기
             //subForm.Owner = this;
             //subForm.ShowDialog();
@@ -51,46 +50,24 @@ namespace DXApplication2
 
         }
 
+
+        /// <summary>
+        /// 클릭시 실적보고서 호출
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void performanceReport_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             //if(dockPanel1 != null)
-            //    dockPanel1.col
+            //if (dockPanel1.Visibility == DevExpress.XtraBars.Docking.DockVisibility.Visible)
+            //{
+            //    //dockPanel1_Container.Dispose();
+            //    dockPanel1.Hide();
+            //}
 
-
-            ////Not use - Form 새창 띄우기
-            //실적보고서 newForm = new 실적보고서();
-            //newForm.Owner = this;
-            //newForm.Show();
-        }
-
-        private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
-        }
-
-        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-
-        }
-
-        private void barListItem1_ListItemClick(object sender, DevExpress.XtraBars.ListItemClickEventArgs e)
-        {
-
-        }
-
-        private void backstageViewControl1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void backstageViewButtonItem1_ItemClick(object sender, DevExpress.XtraBars.Ribbon.BackstageViewItemEventArgs e)
-        {
-
-        }
-
-        private void barWorkspaceMenuItem1_ListItemClick(object sender, DevExpress.XtraBars.ListItemClickEventArgs e)
-        {
-
+            실적보고서 newForm = new 실적보고서();
+            newForm.Owner = this;
+            newForm.Show();
         }
 
         private void 메인화면_Load(object sender, EventArgs e)
@@ -114,30 +91,13 @@ namespace DXApplication2
             newForm.Show();
         }
 
-        private void setting_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            //Settings.DBPathSetting newForm = new Settings.DBPathSetting();
-            //newForm.Owner = this;
-            //newForm.Show();
-        }
-
-        private void dockPanel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void simpleButton2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
             performanceUpdate(e.RowIndex);
         }
 
-        
+
         /// <summary>
         /// 등록한 실적데이터 수정
         /// 1. 금일 실적 data 목록에서 원하는 row 클릭시 실행
@@ -152,5 +112,20 @@ namespace DXApplication2
         }
 
 
+        /// <summary>
+        /// 클릭시 major Dock 과 minor Dock Swap
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void remoteButton0_Click(object sender, EventArgs e)
+        {
+
+            performanceReport_ItemClick(sender, null);
+        }
+
+        private void groupControl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
